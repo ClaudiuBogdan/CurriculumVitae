@@ -1,271 +1,82 @@
-name: 'Claudiu Constantin Bogdan'
-meta:
-  format: FRESH@0.6.0
-  version: 0.1.0
-info:
-  label: 'Your Profession'
-  brief: 'A brief description of yourself as a candidate that appears in some résumé themes. You may use **Markdown** and/or <strong>HTML</strong> formatting here including [links](https://en.wikipedia.org/wiki/Special:Random) or stick to plain text.'
-  image: ""
-contact:
-  website: 'http://your-website.com'
-  phone: 1-999-999-9999
-  email: your-email@your-website.com
-  other: []
-location:
-  address: '123 Somewhere Lane'
-  city: 'Castle Rock'
-  region: 'State, province, or region'
-  code: '90210'
-  country: US
-social:
-  -
-    label: ""
-    network: GitHub
-    user: your-github-username
-    url: 'https://github.com/your-github-username'
-employment:
-  summary: 'Optional overall employment summary. Not used in most themes.'
-  history:
+basics:
+  name: 'Claudiu Constantin Bogdan'
+  label: 'Software Developer'
+  summary: 'Problem solver, fast learner, passionate about my work. I''m an Android Developer certified by Google, with experience in developing, debugging and refactoring mobile applications. I have experience implementing MVC and MVVM design patterns and I have worked with Android Architecture Components (DataBinding, LiveData, ViewModel) in combination with Dagger to create flexible apps. Furthermore, I have developed games in Unity and Phaser3 for mobile and web platform. I''m constantly working to improve my skills and learning how to create better software.'
+  website: 'https://claudiuconstantinbogdan.me'
+  phone: +40-738-334-197
+  email: bogdan.claudiu93@gmail.com
+  picture: professional_portrait-min-patrat.jpg
+  location:
+    address: ""
+    postalCode: ""
+    city: Bucharest
+    countryCode: Romania
+    region: Bucharest
+  profiles:
     -
-      employer: 'Most Recent Employer'
-      url: 'http://employer-website.com'
-      position: 'Head Honcho'
-      summary: 'A summary of your role in this position. Can include **Markdown** and inline <strong>HTML</strong> formatting.'
-      start: 2013-10
-      keywords:
-        - 'spin widgets'
-        - CRM
-        - PM
-        - Ninjitsu
-        - 'Six Sigma'
-      highlights:
-        - 'Increased profits on left-handed spin widgets by 35%.'
-        - 'Participated in iterative/incremental devolution.'
-        - 'Promoted to Head Ninja after 500 successful cage matches.'
+      network: GitHub
+      username: ClaudiuBogdan
+      url: 'https://github.com/ClaudiuBogdan'
     -
-      employer: 'Previous Employer'
-      url: 'http://employer-website.com'
-      position: 'Worker Bee'
-      summary: 'A summary of your previous role. Can include **Markdown** and inline <strong>HTML</strong> formatting.'
-      start: 2009-07
-      end: 2013-10
-      keywords:
-        - keyword1
-        - KW2
-        - KW2++
-        - YAKW
-      highlights:
-        - 'Highlight #1.'
-        - 'Highlight #2.'
-        - 'Highlight #3.'
-projects:
+      network: Linkedin
+      username: 'Claudiu Constantin Bogdan'
+      url: 'https://www.linkedin.com/in/claudiuconstantinbogdan'
+work:
   -
-    title: 'Awesome Project #1'
-    category: FOSS
-    url: 'http://project-page.org'
-    repo: 'https://project-repo.com'
-    media: []
-    role: Contributor
-    summary: 'Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.'
-    description: 'A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.'
-    highlights:
-      - 'Project Highlight #1'
-      - 'Project Highlight #2'
-      - 'Project Highlight #3'
-    keywords:
-      - Tag1
-      - Tag2
-      - Tag3
-      - Tag4
-  -
-    title: Asteroids
-    category: FOSS
-    url: 'http://asteroids-demo.org'
-    repo: 'https://asteroids-repo.com'
-    media: []
-    role: Creator
-    summary: 'Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.'
-    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
-    highlights:
-      - 'Project Highlight #1'
-      - 'Project Highlight #2'
-      - 'Project Highlight #3'
-    keywords:
-      - C++
-      - 'Unreal Engine'
-      - 3D
-      - DirectX
+    company: 'Mind Treat Studios'
+    website: 'https://www.mindtreatstudios.com'
+    position: 'Software Developer'
+    startDate: '2018-07-13'
+    summary: ' As a software developer, a took part in all the software development processes. '
 education:
-  summary: 'Optional overall education summary. Not used in most themes.'
-  level: degree
-  degree: BSCS
-  history:
-    -
-      institution: 'Acme University'
-      title: BSCS
-      url: 'http://acmeuniversity.edu'
-      start: 2004-09
-      end: 2009-06
-      grade: '3.5'
-      summary: 'Graduate of Acme University, summer of 2009. Go [Coyotes](https://en.wikipedia.org/wiki/Coyote)!'
-      curriculum:
-        - 'Data Algorithms'
-        - Optimization
-        - 'Neural Networks'
-        - C
-        - C++
-        - Java
-        - HTTP
-        - TCP/IP
-service:
-  summary: ""
-  history:
-    -
-      flavor: volunteer
-      position: 'Volunteer Coordinator'
-      organization: 'The Mommies Network'
-      url: 'http://themommiesnetwork.org'
-      start: 2006-06
-      summary: 'A summary of your volunteer experience at this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.'
-      highlights: []
-    -
-      flavor: military
-      position: MOS
-      organization: 'Air Force'
-      url: 'https://service-website.mil'
-      start: '2004'
-      summary: 'A summary of your service experience with this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.'
-      highlights: []
+  -
+    institution: Udacity
+    courses:
+      - 'Automated Testing'
+      - Android
+      - Java
+    startDate: 2017-01
+    endDate: 2018-04
+  -
+    institution: 'Universidad de Sevilla'
+    courses:
+      - 'Data Algorithms'
+      - Optimization
+      - C
+    startDate: 2012-09
+    endDate: ""
 skills:
-  sets:
-    -
-      name: 'Web Development'
-      level: advanced
-      skills:
-        - LAMP
-        - JavaScript
-        - 'HTML 5'
-        - Angular.js
-        - jQuery
-        - Sass
-        - LESS
-    -
-      name: Ninjitsu
-      level: intermediate
-      skills:
-        - 'Tokagure Ryu'
-        - Shuriken
-        - Yogen
-    -
-      name: 'Skillset #3'
-      level: beginner
-      skills:
-        - Your
-        - keywords
-        - here
-  list: []
-samples:
   -
-    title: 'Work Sample #1'
-    summary: 'A technical or creative **work sample**.'
-    url: 'http://project-repo.com'
-    date: '2015'
-  -
-    title: 'Creative Sample #2'
-    summary: 'Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.'
-    url: 'http://project-repo.com'
-    date: '2015'
-writing:
-  -
-    title: 'My Blog'
-    publisher:
-      name: Medium.com
-      url: 'https://medium.com'
-    flavor: blog
-    date: '2010'
-    summary: 'Your blog or online home.'
-    url: 'http://coding-snorer.com'
-  -
-    title: 'Something I Wrote Once'
-    flavor: essay
-    date: '2009'
-    summary: 'List your blogs, articles, essays, novels, and dissertations.'
-    publisher:
-      name: 'Acme University Press'
-      url: 'http://press.acmeuniversity.edu'
-    url: 'http://codeproject.com/something-i-wrote-once'
-reading:
-  -
-    title: 'Other Copenhagens'
-    flavor: book
-    url: 'http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209'
-    author: 'Edmund Jorgensen'
-  -
-    title: r/programming
-    flavor: website
-    url: 'https://www.reddit.com/r/programming'
-  -
-    title: 'Hacker News'
-    flavor: website
-    url: 'https://news.ycombinator.com/'
-recognition:
-  -
-    flavor: award
-    from: HackMyResume
-    title: 'Awesomeness Award'
-    event: 'HMR Release'
-    url: 'https://fluentdesk.com/hackmyresume'
-    date: '2016'
-    summary: 'Thanks for being a HackMyResume / FluentCV user!'
-  -
-    flavor: industry
-    from: 'Big Software'
-    title: 'MVP: SpinWidget Technology'
-    event: 'Yearly Roundup'
-    date: '2015-08-03'
-    summary: 'For work in promotion and popularization of SpinWidget technology.'
-references:
-  -
-    name: 'John Doe'
-    category: professional
-    role: 'Manager @ Somewhere Inc.'
-    private: true
-    summary: 'Contact information available on request.'
-    contact:
-      -
-        flavor: email
-        value: john.doe@somewhere.com
-  -
-    name: 'Jane Q. Fullstacker'
-    category: technical
-    summary: 'Contact information available on request.'
-    role: Coworker
-    private: true
-    contact:
-      -
-        flavor: email
-        value: jane.fullstacker@somewhere.com
-testimonials:
-  -
-    name: 'John Doe'
-    flavor: professional
-    quote: 'Such-and-such is awesome! I''d hire him/her again in a second!'
-    private: false
-  -
-    name: 'Somebody Important'
-    flavor: technical
-    quote: 'Hands-down *the best developer/manager/spelunker/coworker/etc* I''ve ever worked with. Emphasis *mine!*'
-    private: false
-languages:
-  -
-    language: English
-    level: native
-  -
-    language: Spanish
+    name: 'Android Development'
     level: advanced
+    keywords:
+      - Java
+      - 'Android SDK'
+      - 'Android Architecture'
   -
-    language: C++
+    name: 'Front-End Web Development'
     level: intermediate
+    keywords:
+      - Vuejs
+      - JavaScript
+      - 'HTML 5'
+      - CSS/Sass
+      - Bootsrap4
+  -
+    name: 'Back-End Web Development'
+    level: intermediate
+    keywords:
+      - Nodejs
+      - JavaScript
+      - Express
+      - MongoDB
+  -
+    name: Unity3D
+    level: intermediate
+    keywords:
+      - 'C#'
+      - .Net
+      - 'Particle System'
 interests:
   -
     name: GitHub
@@ -283,3 +94,167 @@ interests:
       - Sicilian
       - 'King''s Gambit'
       - 'Ruy Lopez'
+references:
+  -
+    name: 'John Doe'
+    reference: 'Such-and-such is awesome! I''d hire him/her again in a second!'
+  -
+    name: 'Somebody Important'
+    reference: 'Hands-down *the best developer/manager/spelunker/coworker/etc* I''ve ever worked with. Emphasis *mine!*'
+languages:
+  -
+    language: English
+    level: native
+  -
+    language: Spanish
+    level: advanced
+  -
+    language: C++
+    level: intermediate
+projects:
+  -
+    name: 'Sound of Colors'
+    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
+    highlights:
+      - 'Integrated Web App with Spotify API'
+      - 'Used audio analysis data to create real time animation.'
+      - 'Deployed Single Page Application with Node.js, MongoDB and Docker'
+      - 'Implemented responsive web design.'
+      - 'Created share and print functionality.'
+    keywords:
+      - SpotifyAPI
+      - Docker
+      - VueJs
+      - NodeJs
+      - Express
+      - MongoDB
+      - AnimeJs
+      - Bootsrap4
+    startDate: 2019-01
+    endDate: 2019-02
+    url: 'https://oskar.nextadv.m75.ro'
+    roles:
+      - 'Lead Developer'
+  -
+    name: 'MTS Website'
+    description: ""
+    highlights:
+      - 'Created modular web application for MTS studio.'
+      - 'Implemented swipe/scroll gesture in Phaser3'
+      - 'Create import module for adding new page levels.'
+    keywords:
+      - Phaser3
+      - 'HTML 5'
+      - CSS
+      - jQuery
+    url: 'https://development.melon.m75.ro/mts_webpage/index.html'
+    roles:
+      - MTS
+  -
+    name: 'Blood Cancer Campaign'
+    description: ""
+    highlights:
+      - 'Created blood cell animation with Unity particles system.'
+      - 'Integrated animation with real time video.'
+      - 'Created configuration mode to adjust animation parameters to fit input camera video.'
+    keywords:
+      - Unity3D
+      - 'Shuriken particles system'
+      - 3D
+      - WebcamTexture
+    url: 'http://asteroids-demo.org'
+    roles:
+      - MTS
+  -
+    name: 'Jurassic Box'
+    description: ""
+    highlights:
+      - 'Build electronic system for cinema 4D project.'
+      - 'Created physical like button with Raspberry Pi and LCD screen.'
+      - 'Created movement detection system that triggers the dinosaur video.'
+      - 'Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino'
+    keywords:
+      - Arduino
+      - 'Raspberry Pi'
+      - 'Electronic sensors'
+    url: 'https://youtu.be/jzRzCRlRxPc'
+    roles:
+      - MTS
+  -
+    name: 'Ia Digitala'
+    description: ""
+    highlights:
+      - 'Created an clothes customization game with Phaser.'
+      - 'Created items menu to select different items to place over the base clothes.'
+      - 'Created tool menu to manipulate clothes items (size, rotation, flip, delete).'
+      - 'Implemented undo/redo system.'
+    keywords:
+      - Phaser3D
+      - FacebookSDK
+      - ImageMask
+      - MVC
+    url: 'https://bucurie.coresibrasov.ro/joaca'
+    roles:
+      - MTS
+  -
+    name: 'Romania Centenar'
+    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
+    highlights:
+      - 'Project Highlight #1'
+      - 'Project Highlight #2'
+      - 'Project Highlight #3'
+    keywords:
+      - C++
+      - 'Unreal Engine'
+      - 3D
+      - DirectX
+    url: 'http://asteroids-demo.org'
+    roles:
+      - MTS
+  -
+    name: Solitaire2048
+    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
+    highlights:
+      - 'Project Highlight #1'
+      - 'Project Highlight #2'
+      - 'Project Highlight #3'
+    keywords:
+      - C++
+      - 'Unreal Engine'
+      - 3D
+      - DirectX
+    url: 'http://asteroids-demo.org'
+    roles:
+      - MTS
+  -
+    name: 'Marsupius VR'
+    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
+    highlights:
+      - 'Project Highlight #1'
+      - 'Project Highlight #2'
+      - 'Project Highlight #3'
+    keywords:
+      - C++
+      - 'Unreal Engine'
+      - 3D
+      - DirectX
+    url: 'http://asteroids-demo.org'
+    roles:
+      - MTS
+  -
+    name: 'Acces Taxi Driver/Passenger'
+    description: 'Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.'
+    highlights:
+      - 'Reduced the number of bugs by 90%'
+      - 'Refactored application architecture to implement MVVM with Android Architecture'
+      - 'Improve overall performance by more than 50%'
+    keywords:
+      - AndroidSDK
+      - GoogleMaps
+      - Notifications
+      - 'Android Architecture'
+    startDate: '2018-07-13'
+    endDate: '2018-07-13'
+    url: 'https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver'
+    roles:
+      - MTS

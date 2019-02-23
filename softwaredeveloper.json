@@ -5,208 +5,278 @@
     "version": "0.1.0"
   },
   "info": {
-    "label": "Your Profession",
-    "brief": "A brief description of yourself as a candidate that appears in some résumé themes. You may use **Markdown** and/or <strong>HTML</strong> formatting here including [links](https://en.wikipedia.org/wiki/Special:Random) or stick to plain text.",
-    "image": ""
+    "label": "Software Developer",
+    "brief": "Problem solver, fast learner, passionate about my work. I'm an Android Developer certified by Google, with experience in developing, debugging and refactoring mobile applications. I have experience implementing MVC and MVVM design patterns and I have worked with Android Architecture Components (DataBinding, LiveData, ViewModel) in combination with Dagger to create flexible apps. Furthermore, I have developed games in Unity and Phaser3 for mobile and web platform. I'm constantly working to improve my skills and learning how to create better software.",
+    "image": "professional_portrait-min-patrat.jpg"
   },
   "contact": {
-    "website": "http://your-website.com",git 
-    "phone": "1-999-999-9999",
-    "email": "your-email@your-website.com",
+    "website": "https://claudiuconstantinbogdan.me",
+    "phone": "+40-738-334-197",
+    "email": "bogdan.claudiu93@gmail.com",
     "other": []
   },
   "location": {
-    "address": "123 Somewhere Lane",
-    "city": "Castle Rock",
-    "region": "State, province, or region",
-    "code": "90210",
-    "country": "US"
+    "address": "",
+    "city": "Bucharest",
+    "region": "Bucharest",
+    "code": "",
+    "country": "Romania"
   },
   "social": [
     {
       "label": "",
       "network": "GitHub",
-      "user": "your-github-username",
-      "url": "https://github.com/your-github-username"
+      "user": "ClaudiuBogdan",
+      "url": "https://github.com/ClaudiuBogdan"
+    },
+    {
+      "label": "",
+      "network": "Linkedin",
+      "user": "Claudiu Constantin Bogdan",
+      "url": "https://www.linkedin.com/in/claudiuconstantinbogdan"
     }
   ],
   "employment": {
-    "summary": "Optional overall employment summary. Not used in most themes.",
+    "summary": "Fast learner, successful software developer.",
     "history": [
       {
-        "employer": "Most Recent Employer",
-        "url": "http://employer-website.com",
-        "position": "Head Honcho",
-        "summary": "A summary of your role in this position. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "start": "2013-10",
-        "keywords": ["spin widgets", "CRM", "PM", "Ninjitsu", "Six Sigma"],
-        "highlights": [
-          "Increased profits on left-handed spin widgets by 35%.",
-          "Participated in iterative/incremental devolution.",
-          "Promoted to Head Ninja after 500 successful cage matches."
+        "employer": "Mind Treat Studios",
+        "url": "https://www.mindtreatstudios.com",
+        "position": "Software Developer",
+        "summary": " As a software developer, a took part in all the software development processes. ",
+        "start": "2018-07-13",
+        "keywords": ["Arduino", "Web", "WebGL", "Unity", "Android"],
+        "courses": [
+          "Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.",
+          "Designing application architecture/design patterns: MVC, MVVM.",
+          "Developing Virtual Reality game with Unity and Vuforia.",
+          "Developing web games with Phaser 3 engine and JavaScript.",
+          "Programming embedded systems (Arduino) to control lights, solenoid valves, motors."
         ]
-      },
-      {
-        "employer": "Previous Employer",
-        "url": "http://employer-website.com",
-        "position": "Worker Bee",
-        "summary": "A summary of your previous role. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "start": "2009-07",
-        "end": "2013-10",
-        "keywords": ["keyword1", "KW2", "KW2++", "YAKW"],
-        "highlights": ["Highlight #1.", "Highlight #2.", "Highlight #3."]
       }
     ]
   },
   "projects": [
     {
-      "title": "Awesome Project #1",
-      "category": "FOSS",
-      "url": "http://project-page.org",
-      "repo": "https://project-repo.com",
+      "title": "Sound of Colors",
+      "start": "2019-01",
+      "end": "2019-02",
+      "category": "Private",
+      "url": "https://oskar.nextadv.m75.ro",
       "media": [],
-      "role": "Contributor",
-      "summary": "Show off your project work with a Markdown-and-HTML friendly summary of your role on the project. Software projects, creative projects, business projects can all appear here.",
-      "description": "A description of the project, for audiences that may not be familiar with it. Like the summary section, can include **Markdown** and inline <strong>HTML</strong> formatting.",
+      "role": "Lead Developer",
+      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
+      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
       "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
+        "Integrated Web App with Spotify API",
+        "Used audio analysis data to create real time animation.",
+        "Deployed Single Page Application with Node.js, MongoDB and Docker",
+        "Implemented responsive web design.",
+        "Created share and print functionality."
       ],
-      "keywords": ["Tag1", "Tag2", "Tag3", "Tag4"]
+      "keywords": [
+        "SpotifyAPI",
+        "Docker",
+        "VueJs",
+        "NodeJs",
+        "Express",
+        "MongoDB",
+        "AnimeJs",
+        "Bootsrap4"
+      ]
     },
     {
-      "title": "Asteroids",
+      "title": "MTS Website",
+      "category": "private",
+      "url": "https://development.melon.m75.ro/mts_webpage/index.html",
+      "repo": "",
+      "media": ["professional_portrait-min-patrat.jpg"],
+      "role": "MTS",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Created modular web application for MTS studio.",
+        "Implemented swipe/scroll gesture in Phaser3",
+        "Create import module for adding new page levels."
+      ],
+      "keywords": ["Phaser3", "HTML 5", "CSS", "jQuery"]
+    },
+    {
+      "title": "Blood Cancer Campaign",
+      "category": "private",
+      "url": "http://asteroids-demo.org",
+      "repo": "https://asteroids-repo.com",
+      "media": [],
+      "role": "MTS",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Created blood cell animation with Unity particles system.",
+        "Integrated animation with real time video.",
+        "Created configuration mode to adjust animation parameters to fit input camera video."
+      ],
+      "keywords": ["Unity3D", "Shuriken particles system", "3D", "WebcamTexture"]
+    },
+    {
+      "title": "Jurassic Box",
+      "category": "private",
+      "url": "https://youtu.be/jzRzCRlRxPc",
+      "repo": "",
+      "media": [],
+      "role": "MTS",
+      "summary": "",
+      "description": "",
+      "highlights": [
+        "Build electronic system for cinema 4D project.",
+        "Created physical like button with Raspberry Pi and LCD screen.",
+        "Created movement detection system that triggers the dinosaur video.",
+        "Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino"
+      ],
+      "keywords": ["Arduino", "Raspberry Pi", "Electronic sensors"]
+    },
+    {
+      "title": "Ia Digitala",
+      "category": "private",
+      "url": "https://bucurie.coresibrasov.ro/joaca",
+      "repo": "",
+      "media": ["https://www.youtube.com/watch?v=EN_GNhAtGVQ"],
+      "role": "MTS",
+      "summary": "",
+      "highlights": [
+        "Created an clothes customization game with Phaser.",
+        "Created items menu to select different items to place over the base clothes.",
+        "Created tool menu to manipulate clothes items (size, rotation, flip, delete).",
+        "Implemented undo/redo system."
+      ],
+      "keywords": ["Phaser3D", "FacebookSDK", "ImageMask", "MVC"]
+    },
+    {
+      "title": "Solitaire2048",
+      "category": "private",
+      "url": "http://asteroids-demo.org",
+      "repo": "https://asteroids-repo.com",
+      "media": [],
+      "role": "MTS",
+      "summary": "",
+      "highlights": [
+        "Developed solitaire-like game with combo effect.",
+        "Learned to use phaser3 in less than a week.",
+        "Added sound effects to card interaction."
+      ],
+      "keywords": ["Phaser3", "Web"]
+    },
+    {
+      "title": "Marsupius VR",
       "category": "FOSS",
       "url": "http://asteroids-demo.org",
       "repo": "https://asteroids-repo.com",
       "media": [],
-      "role": "Creator",
-      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
-      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
+      "role": "MTS",
+      "summary": "",
       "highlights": [
-        "Project Highlight #1",
-        "Project Highlight #2",
-        "Project Highlight #3"
+        "Debugged and completed VR project based on Vuforia and Unity3D.",
+        "Developed Android version of the application.",
+        "Improved Vuforia target detection."
       ],
-      "keywords": ["C++", "Unreal Engine", "3D", "DirectX"]
+      "keywords": ["Unity3D", "Vuforia", "UnityAnimation", "Video"]
+    },
+
+    {
+      "title": "Acces Taxi Driver/Passenger",
+      "category": "private",
+      "url": "https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver",
+      "repo": "",
+      "start": "2018-07-13",
+      "end": "2018-07-13",
+      "media": [],
+      "role": "MTS",
+      "summary": "Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.",
+      "description": "",
+      "highlights": [
+        "Reduced the number of bugs by 90%",
+        "Refactored application architecture to implement MVVM with Android Architecture",
+        "Improve overall performance by more than 50%",
+        "Implemented pixel-perfect design.",
+        "Implemented Dagger2 and RxJava."
+      ],
+      "keywords": [
+        "AndroidSDK",
+        "GoogleMaps",
+        "Notifications",
+        "Android Architecture"
+      ]
     }
   ],
   "education": {
-    "summary": "Optional overall education summary. Not used in most themes.",
+    "summary": "Fast learner, successful software developer.",
     "level": "degree",
     "degree": "BSCS",
     "history": [
       {
-        "institution": "Acme University",
-        "title": "BSCS",
-        "url": "http://acmeuniversity.edu",
-        "start": "2004-09",
-        "end": "2009-06",
-        "grade": "3.5",
-        "summary": "Graduate of Acme University, summer of 2009. Go [Coyotes](https://en.wikipedia.org/wiki/Coyote)!",
-        "curriculum": [
-          "Data Algorithms",
-          "Optimization",
-          "Neural Networks",
-          "C",
-          "C++",
-          "Java",
-          "HTTP",
-          "TCP/IP"
-        ]
-      }
-    ]
-  },
-  "service": {
-    "summary": "",
-    "history": [
-      {
-        "flavor": "volunteer",
-        "position": "Volunteer Coordinator",
-        "organization": "The Mommies Network",
-        "url": "http://themommiesnetwork.org",
-        "start": "2006-06",
-        "summary": "A summary of your volunteer experience at this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
+        "institution": "Universidad de Sevilla",
+        "title": "B.E.",
+        "url": "http://www.us.es/",
+        "highlights": [
+          "Applying analytical methods (engineering mathematics – algebra, differentiation, function, geometry, trigonometry, statistics)",
+          "Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.",
+          "Understanding aeronautical sciences – stress, strain, static and dynamic systems, motion, force, electrical power and resistance, mass and weight",
+          "Working efficiently and effectively in an engineering environment ",
+          "Using and communicating technical information"
+        ],
+        "start": "2012-09",
+        "end": "",
+        "location": {
+          "city": "Sevilla",
+          "region": "Spain"
+        },
+        "summary": "Aerospace Engineering degree (not graduated)",
+        "description": "Aerospace Engineering degree (not graduated)",
+        "curriculum": ["Data Algorithms", "Optimization", "C"]
       },
       {
-        "flavor": "military",
-        "position": "MOS",
-        "organization": "Air Force",
-        "url": "https://service-website.mil",
-        "start": "2004",
-        "summary": "A summary of your service experience with this organization. Can include **Markdown** and inline <strong>HTML</strong> formatting.",
-        "highlights": []
+        "institution": "Udacity",
+        "title": "Associate Android Developer",
+        "url": "https://eu.udacity.com/",
+        "start": "2017-01",
+        "end": "2018-04",
+        "summary": "Advanced Android Development",
+        "curriculum": ["Automated Testing", "Android", "Java"],
+        "courses": [
+          "Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools.",
+          "Implementation of the visual and navigational components of an application's design.",
+          "Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.",
+          "Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases.",
+          "Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets."
+        ]
       }
     ]
   },
   "skills": {
     "sets": [
       {
-        "name": "Web Development",
+        "name": "Android Development",
         "level": "advanced",
-        "skills": [
-          "LAMP",
-          "JavaScript",
-          "HTML 5",
-          "Angular.js",
-          "jQuery",
-          "Sass",
-          "LESS"
-        ]
+        "skills": ["Java", "Android SDK", "Android Architecture"]
       },
       {
-        "name": "Ninjitsu",
+        "name": "Front-End Web Development",
         "level": "intermediate",
-        "skills": ["Tokagure Ryu", "Shuriken", "Yogen"]
+        "skills": ["Vuejs", "JavaScript", "HTML 5", "CSS/Sass", "Bootsrap4"]
       },
       {
-        "name": "Skillset #3",
-        "level": "beginner",
-        "skills": ["Your", "keywords", "here"]
+        "name": "Back-End Web Development",
+        "level": "intermediate",
+        "skills": ["Nodejs", "JavaScript", "Express", "MongoDB"]
+      },
+
+      {
+        "name": "Unity3D",
+        "level": "intermediate",
+        "skills": ["C#", ".Net", "Particle System"]
       }
     ],
     "list": []
   },
-  "samples": [
-    {
-      "title": "Work Sample #1",
-      "summary": "A technical or creative **work sample**.",
-      "url": "http://project-repo.com",
-      "date": "2015"
-    },
-    {
-      "title": "Creative Sample #2",
-      "summary": "Another technical or creative sample. You can use [Markdown](https://daringfireball.net/projects/markdown/) here.",
-      "url": "http://project-repo.com",
-      "date": "2015"
-    }
-  ],
-  "writing": [
-    {
-      "title": "My Blog",
-      "publisher": {
-        "name": "Medium.com",
-        "url": "https://medium.com"
-      },
-      "flavor": "blog",
-      "date": "2010",
-      "summary": "Your blog or online home.",
-      "url": "http://coding-snorer.com"
-    },
-    {
-      "title": "Something I Wrote Once",
-      "flavor": "essay",
-      "date": "2009",
-      "summary": "List your blogs, articles, essays, novels, and dissertations.",
-      "publisher": {
-        "name": "Acme University Press",
-        "url": "http://press.acmeuniversity.edu"
-      },
-      "url": "http://codeproject.com/something-i-wrote-once"
-    }
-  ],
   "reading": [
     {
       "title": "Other Copenhagens",
@@ -223,25 +293,6 @@
       "title": "Hacker News",
       "flavor": "website",
       "url": "https://news.ycombinator.com/"
-    }
-  ],
-  "recognition": [
-    {
-      "flavor": "award",
-      "from": "HackMyResume",
-      "title": "Awesomeness Award",
-      "event": "HMR Release",
-      "url": "https://fluentdesk.com/hackmyresume",
-      "date": "2016",
-      "summary": "Thanks for being a HackMyResume / FluentCV user!"
-    },
-    {
-      "flavor": "industry",
-      "from": "Big Software",
-      "title": "MVP: SpinWidget Technology",
-      "event": "Yearly Roundup",
-      "date": "2015-08-03",
-      "summary": "For work in promotion and popularization of SpinWidget technology."
     }
   ],
   "references": [
