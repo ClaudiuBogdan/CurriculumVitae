@@ -17,12 +17,17 @@ I've developed, debugged and deployed mobile applications, VR applications, web 
 
 ### *Software Developer*, [Mind Treat Studios](https://www.mindtreatstudios.com) (2018-07 — Present)
 
- As a software developer, a took part in all the software development processes. 
+I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.
+  - Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.
+  - Designing application architecture/design patterns: MVC, MVVM.
+  - Developing Virtual Reality game with Unity and Vuforia.
+  - Developing web games with Phaser 3 engine and JavaScript.
+  - Programming embedded systems (Arduino) to control lights, solenoid valves, motors.
 
 
 ## PROJECTS
 
-### *Lead Web Developer*, [Sound of Colors](https://oskar.nextadv.m75.ro) (2019-01 — 2019-02)
+### *Lead Web Developer*, [Sound of Colours](https://oskar.nextadv.m75.ro) (2019-01 — 2019-02)
 
 
 
@@ -37,7 +42,7 @@ I've developed, debugged and deployed mobile applications, VR applications, web 
   - Created share and print functionality.
 
 
-### *Android Developer*, [Acces Taxi Driver/Passenger](https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver) (2018-07 — 2018-10)
+### *Android Developer*, [Access Taxi Driver/Passenger](https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver) (2018-07 — 2018-10)
 
 
 Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.
@@ -52,7 +57,7 @@ Developed two enterprise applications based on Google Maps and Google Cloud Mess
   - Implemented Dagger2 and RxJava.
 
 
-### *Lead Web Developer*, [MTS Website](https://development.melon.m75.ro/mts_webpage/index.html) (2018-12 — 2019-01)
+### *Lead Web Developer*, [Mind Treat Studios Website](https://development.melon.m75.ro/mts_webpage/index.html) (2018-12 — 2019-01)
 
 
 
@@ -91,7 +96,7 @@ Developed two enterprise applications based on Google Maps and Google Cloud Mess
 
 
 
-  - Created an clothes customization game with Phaser.
+  - Created a clothes customization game with Phaser.
 
   - Created items menu to select different items to place over the base clothes.
 

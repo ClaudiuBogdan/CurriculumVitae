@@ -1,64 +1,119 @@
-name: 'Claudiu Constantin Bogdan'
-meta:
-  format: FRESH@0.6.0
-  version: 0.1.0
-info:
+basics:
+  name: 'Claudiu Constantin Bogdan'
   label: 'Software Developer'
-  brief: 'I''ve developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I''ve been a lead developer in most of the projects an I''ve also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I''m constantly working to improve my skills and learning how to create better software.'
-  image: professional_portrait-min-patrat.jpg
-contact:
+  summary: 'I''ve developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I''ve been a lead developer in most of the projects an I''ve also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I''m constantly working to improve my skills and learning how to create better software.'
   website: 'https://claudiuconstantinbogdan.me'
   phone: +40-738-334-197
   email: bogdan.claudiu93@gmail.com
-  other: []
-location:
-  address: ""
-  city: Bucharest
-  region: Bucharest
-  code: ""
-  country: Romania
-social:
-  -
-    label: ""
-    network: GitHub
-    user: ClaudiuBogdan
-    url: 'https://github.com/ClaudiuBogdan'
-  -
-    label: ""
-    network: Linkedin
-    user: 'Claudiu Constantin Bogdan'
-    url: 'https://www.linkedin.com/in/claudiuconstantinbogdan'
-employment:
-  summary: 'Fast learner, successful software developer.'
-  history:
+  picture: professional_portrait-min-patrat.jpg
+  location:
+    address: ""
+    postalCode: ""
+    city: Bucharest
+    countryCode: Romania
+    region: ""
+  profiles:
     -
-      employer: 'Mind Treat Studios'
-      url: 'https://www.mindtreatstudios.com'
-      position: 'Software Developer'
-      summary: ' As a software developer, a took part in all the software development processes. '
-      start: '2018-07-13'
-      keywords:
-        - Arduino
-        - Web
-        - WebGL
-        - Unity
-        - Android
-      courses:
-        - 'Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.'
-        - 'Designing application architecture/design patterns: MVC, MVVM.'
-        - 'Developing Virtual Reality game with Unity and Vuforia.'
-        - 'Developing web games with Phaser 3 engine and JavaScript.'
-        - 'Programming embedded systems (Arduino) to control lights, solenoid valves, motors.'
+      network: GitHub
+      username: ClaudiuBogdan
+      url: 'https://github.com/ClaudiuBogdan'
+    -
+      network: Linkedin
+      username: 'Claudiu Constantin Bogdan'
+      url: 'https://www.linkedin.com/in/claudiuconstantinbogdan'
+work:
+  -
+    company: 'Mind Treat Studios'
+    website: 'https://www.mindtreatstudios.com'
+    position: 'Software Developer'
+    startDate: '2018-07-13'
+    summary: 'I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I''ve also conducted the technical interview for software developers.'
+    highlights:
+      - 'Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.'
+      - 'Designing application architecture/design patterns: MVC, MVVM.'
+      - 'Developing Virtual Reality game with Unity and Vuforia.'
+      - 'Developing web games with Phaser 3 engine and JavaScript.'
+      - 'Programming embedded systems (Arduino) to control lights, solenoid valves, motors.'
+education:
+  -
+    institution: Udacity
+    courses:
+      - 'Automated Testing'
+      - Android
+      - Java
+    startDate: 2017-01
+    endDate: 2018-04
+  -
+    institution: 'Universidad de Sevilla'
+    courses:
+      - 'Data Algorithms'
+      - Optimization
+      - C
+    startDate: 2012-09
+    endDate: ""
+skills:
+  -
+    name: 'Android Development'
+    level: advanced
+    keywords:
+      - Java
+      - 'Android SDK'
+      - 'Android Architecture'
+  -
+    name: 'Front-End Web Development'
+    level: intermediate
+    keywords:
+      - Vuejs
+      - JavaScript
+      - 'HTML 5'
+      - CSS/Sass
+      - Bootsrap4
+  -
+    name: 'Back-End Web Development'
+    level: intermediate
+    keywords:
+      - Nodejs
+      - JavaScript
+      - Express
+      - MongoDB
+  -
+    name: Unity3D
+    level: intermediate
+    keywords:
+      - 'C#'
+      - .Net
+      - 'Particle System'
+interests:
+  -
+    name: 'Autonomous flight'
+    summary: 'I would like to create an autonomous drone.'
+    keywords:
+      - Flight
+      - Drones
+      - AI
+      - Aerodynamics
+      - Electronics
+  -
+    name: 'Artificial Intelligence'
+    summary: 'I am a beginner in this field.'
+    keywords:
+      - AI
+      - 'Neural Networks'
+      - 'Machine Learning'
+languages:
+  -
+    language: English
+    level: advanced
+  -
+    language: Spanish
+    level: native
+  -
+    language: Romanian
+    level: native
 projects:
   -
-    title: 'Sound of Colors'
-    start: 2019-01
-    end: 2019-02
-    category: Private
-    url: 'https://oskar.nextadv.m75.ro'
-    media: []
-    role: 'Lead Web Developer'
-    summary: ""
+    name: 'Sound of Colours'
+    description: ""
     highlights:
       - 'Integrated Web App with Spotify API'
       - 'Used audio analysis data to create real time animation.'
@@ -74,17 +129,14 @@ projects:
       - MongoDB
       - AnimeJs
       - Bootsrap4
+    startDate: 2019-01
+    endDate: 2019-02
+    url: 'https://oskar.nextadv.m75.ro'
+    roles:
+      - 'Lead Web Developer'
   -
-    title: 'Acces Taxi Driver/Passenger'
-    category: private
-    url: 'https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver'
-    repo: ""
-    start: '2018-07-13'
-    end: '2018-10-15'
-    media: []
-    role: 'Android Developer'
-    summary: 'Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.'
-    description: ""
+    name: 'Access Taxi Driver/Passenger'
+    description: 'Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.'
     highlights:
       - 'Reduced the number of bugs by 90%'
       - 'Refactored application architecture to implement MVVM with Android Architecture'
@@ -96,17 +148,13 @@ projects:
       - GoogleMaps
       - Notifications
       - 'Android Architecture'
+    startDate: '2018-07-13'
+    endDate: '2018-10-15'
+    url: 'https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver'
+    roles:
+      - 'Android Developer'
   -
-    title: 'MTS Website'
-    category: private
-    url: 'https://development.melon.m75.ro/mts_webpage/index.html'
-    repo: ""
-    media:
-      - professional_portrait-min-patrat.jpg
-    start: 2018-12
-    end: 2019-01
-    role: 'Lead Web Developer'
-    summary: ""
+    name: 'Mind Treat Studios Website'
     description: ""
     highlights:
       - 'Created modular web application for MTS studio.'
@@ -117,15 +165,13 @@ projects:
       - 'HTML 5'
       - CSS
       - jQuery
+    startDate: 2018-12
+    endDate: 2019-01
+    url: 'https://development.melon.m75.ro/mts_webpage/index.html'
+    roles:
+      - 'Lead Web Developer'
   -
-    title: 'Blood Cancer Campaign'
-    category: private
-    url: ""
-    start: 2018-12
-    end: 2018-12
-    media: []
-    role: 'Lead Unity Developer'
-    summary: ""
+    name: 'Blood Cancer Campaign'
     description: ""
     highlights:
       - 'Created blood cell animation with Unity particles system.'
@@ -136,16 +182,13 @@ projects:
       - 'Shuriken particles system'
       - 3D
       - WebcamTexture
+    startDate: 2018-12
+    endDate: 2018-12
+    url: ""
+    roles:
+      - 'Lead Unity Developer'
   -
-    title: 'Jurassic Box'
-    category: private
-    url: 'https://youtu.be/jzRzCRlRxPc'
-    start: 2018-11
-    end: 2018-12
-    repo: ""
-    media: []
-    role: 'Electrical Engineer'
-    summary: ""
+    name: 'Jurassic Box'
     description: ""
     highlights:
       - 'Build electronic system for cinema 4D project.'
@@ -156,19 +199,16 @@ projects:
       - Arduino
       - 'Raspberry Pi'
       - 'Electronic sensors'
+    startDate: 2018-11
+    endDate: 2018-12
+    url: 'https://youtu.be/jzRzCRlRxPc'
+    roles:
+      - 'Electrical Engineer'
   -
-    title: 'Ia Digitala'
-    category: private
-    url: 'https://bucurie.coresibrasov.ro/joaca'
-    repo: ""
-    media:
-      - 'https://www.youtube.com/watch?v=EN_GNhAtGVQ'
-    start: 2018-10
-    end: 2018-11
-    role: 'Lead Game Developer'
-    summary: ""
+    name: 'Ia Digitala'
+    description: ""
     highlights:
-      - 'Created an clothes customization game with Phaser.'
+      - 'Created a clothes customization game with Phaser.'
       - 'Created items menu to select different items to place over the base clothes.'
       - 'Created tool menu to manipulate clothes items (size, rotation, flip, delete).'
       - 'Implemented undo/redo system.'
@@ -177,15 +217,14 @@ projects:
       - FacebookSDK
       - ImageMask
       - MVC
+    startDate: 2018-10
+    endDate: 2018-11
+    url: 'https://bucurie.coresibrasov.ro/joaca'
+    roles:
+      - 'Lead Game Developer'
   -
-    title: Solitaire2048
-    category: private
-    url: ""
-    start: 2018-10
-    end: 2018-11
-    media: []
-    role: 'Game Developer'
-    summary: ""
+    name: Solitaire2048
+    description: ""
     highlights:
       - 'Developed solitaire-like game with combo effect.'
       - 'Learned to use phaser3 in less than a week.'
@@ -193,15 +232,14 @@ projects:
     keywords:
       - Phaser3
       - Web
-  -
-    title: 'Marsupius VR'
-    category: FOSS
+    startDate: 2018-10
+    endDate: 2018-11
     url: ""
-    start: 2018-10
-    end: 2018-10
-    media: []
-    role: 'Unity Developer'
-    summary: ""
+    roles:
+      - 'Game Developer'
+  -
+    name: 'Marsupius VR'
+    description: ""
     highlights:
       - 'Debugged and completed VR project based on Vuforia and Unity3D.'
       - 'Developed Android version of the application.'
@@ -211,107 +249,8 @@ projects:
       - Vuforia
       - UnityAnimation
       - Video
-education:
-  summary: 'Fast learner, successful software developer.'
-  level: degree
-  degree: BSCS
-  history:
-    -
-      institution: 'Universidad de Sevilla'
-      title: B.E.
-      url: 'http://www.us.es/'
-      highlights:
-        - 'Applying analytical methods (engineering mathematics – algebra, differentiation, function, geometry, trigonometry, statistics)'
-        - 'Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.'
-        - 'Understanding aeronautical sciences – stress, strain, static and dynamic systems, motion, force, electrical power and resistance, mass and weight'
-        - 'Working efficiently and effectively in an engineering environment '
-        - 'Using and communicating technical information'
-      start: 2012-09
-      end: ""
-      location:
-        city: Sevilla
-        region: Spain
-      summary: 'Aerospace Engineering degree (not graduated)'
-      description: 'Aerospace Engineering degree (not graduated)'
-      curriculum:
-        - 'Data Algorithms'
-        - Optimization
-        - C
-    -
-      institution: Udacity
-      title: 'Associate Android Developer'
-      url: 'https://eu.udacity.com/'
-      start: 2017-01
-      end: 2018-04
-      summary: 'Advanced Android Development'
-      curriculum:
-        - 'Automated Testing'
-        - Android
-        - Java
-      highlights:
-        - 'Writing tests to verify that the application''s logic and user interface are performing as expected, and executing those tests using the developer tools.'
-        - 'Implementation of the visual and navigational components of an application''s design.'
-        - 'Understanding of Android''s top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.'
-        - 'Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases.'
-        - 'Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets.'
-skills:
-  sets:
-    -
-      name: 'Android Development'
-      level: advanced
-      skills:
-        - Java
-        - 'Android SDK'
-        - 'Android Architecture'
-    -
-      name: 'Front-End Web Development'
-      level: intermediate
-      skills:
-        - Vuejs
-        - JavaScript
-        - 'HTML 5'
-        - CSS/Sass
-        - Bootsrap4
-    -
-      name: 'Back-End Web Development'
-      level: intermediate
-      skills:
-        - Nodejs
-        - JavaScript
-        - Express
-        - MongoDB
-    -
-      name: Unity3D
-      level: intermediate
-      skills:
-        - 'C#'
-        - .Net
-        - 'Particle System'
-  list: []
-languages:
-  -
-    language: English
-    level: advanced
-  -
-    language: Spanish
-    level: native
-  -
-    language: Romanian
-    level: native
-interests:
-  -
-    name: GitHub
-    summary: 'Regular GitHub user and tinkerer.'
-    keywords:
-      - GitHub
-      - git
-      - 'GitHub Desktop (OS X)'
-      - LFS
-      - 'GitHub API'
-  -
-    name: chess
-    summary: 'Avid chess player.'
-    keywords:
-      - Sicilian
-      - 'King''s Gambit'
-      - 'Ruy Lopez'
+    startDate: 2018-10
+    endDate: 2018-10
+    url: ""
+    roles:
+      - 'Unity Developer'

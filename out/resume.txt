@@ -16,12 +16,17 @@ SKILLS -------------------------------------------------------------------------
 EMPLOYMENT ---------------------------------------------------------------------
 
 Software Developer, Mind Treat Studios (2018-07 — Present)
- As a software developer, a took part in all the software development processes. 
+I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.
+- Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.
+- Designing application architecture/design patterns: MVC, MVVM.
+- Developing Virtual Reality game with Unity and Vuforia.
+- Developing web games with Phaser 3 engine and JavaScript.
+- Programming embedded systems (Arduino) to control lights, solenoid valves, motors.
 
 
 PROJECTS -----------------------------------------------------------------------
 
-Sound of Colors, Lead Web Developer (2019-01 — 2019-02)
+Sound of Colours, Lead Web Developer (2019-01 — 2019-02)
 
 
 - Integrated Web App with Spotify API
@@ -30,7 +35,7 @@ Sound of Colors, Lead Web Developer (2019-01 — 2019-02)
 - Implemented responsive web design.
 - Created share and print functionality.
 
-Acces Taxi Driver/Passenger, Android Developer (2018-07 — 2018-10)
+Access Taxi Driver/Passenger, Android Developer (2018-07 — 2018-10)
 
 Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.
 - Reduced the number of bugs by 90%
@@ -39,7 +44,7 @@ Developed two enterprise applications based on Google Maps and Google Cloud Mess
 - Implemented pixel-perfect design.
 - Implemented Dagger2 and RxJava.
 
-MTS Website, Lead Web Developer (2018-12 — 2019-01)
+Mind Treat Studios Website, Lead Web Developer (2018-12 — 2019-01)
 
 
 - Created modular web application for MTS studio.
@@ -64,7 +69,7 @@ Jurassic Box, Electrical Engineer (2018-11 — 2018-12)
 Ia Digitala, Lead Game Developer (2018-10 — 2018-11)
 
 
-- Created an clothes customization game with Phaser.
+- Created a clothes customization game with Phaser.
 - Created items menu to select different items to place over the base clothes.
 - Created tool menu to manipulate clothes items (size, rotation, flip, delete).
 - Implemented undo/redo system.

@@ -18,7 +18,7 @@
   "location": {
     "address": "",
     "city": "Bucharest",
-    "region": "Bucharest",
+    "region": "",
     "code": "",
     "country": "Romania"
   },
@@ -43,10 +43,10 @@
         "employer": "Mind Treat Studios",
         "url": "https://www.mindtreatstudios.com",
         "position": "Software Developer",
-        "summary": " As a software developer, a took part in all the software development processes. ",
+        "summary": "I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
         "start": "2018-07-13",
         "keywords": ["Arduino", "Web", "WebGL", "Unity", "Android"],
-        "courses": [
+        "highlights": [
           "Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.",
           "Designing application architecture/design patterns: MVC, MVVM.",
           "Developing Virtual Reality game with Unity and Vuforia.",
@@ -58,7 +58,7 @@
   },
   "projects": [
     {
-      "title": "Sound of Colors",
+      "title": "Sound of Colours",
       "start": "2019-01",
       "end": "2019-02",
       "category": "Private",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "title": "Acces Taxi Driver/Passenger",
+      "title": "Access Taxi Driver/Passenger",
       "category": "private",
       "url": "https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver",
       "repo": "",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "title": "MTS Website",
+      "title": "Mind Treat Studios Website",
       "category": "private",
       "url": "https://development.melon.m75.ro/mts_webpage/index.html",
       "repo": "",
@@ -305,20 +305,14 @@
   ],
   "interests": [
     {
-      "name": "GitHub",
-      "summary": "Regular GitHub user and tinkerer.",
-      "keywords": [
-        "GitHub",
-        "git",
-        "GitHub Desktop (OS X)",
-        "LFS",
-        "GitHub API"
-      ]
+      "name": "Autonomous flight",
+      "summary": "I would like to create an autonomous drone.",
+      "keywords": ["Flight", "Drones", "AI", "Aerodynamics", "Electronics"]
     },
     {
-      "name": "chess",
-      "summary": "Avid chess player.",
-      "keywords": ["Sicilian", "King's Gambit", "Ruy Lopez"]
+      "name": "Artificial Intelligence",
+      "summary": "I am a beginner in this field.",
+      "keywords": ["AI", "Neural Networks", "Machine Learning"]
     }
   ]
 }
