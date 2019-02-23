@@ -1,82 +1,303 @@
-basics:
-  name: 'Claudiu Constantin Bogdan'
+name: 'Claudiu Constantin Bogdan'
+meta:
+  format: FRESH@0.6.0
+  version: 0.1.0
+info:
   label: 'Software Developer'
-  summary: 'Problem solver, fast learner, passionate about my work. I''m an Android Developer certified by Google, with experience in developing, debugging and refactoring mobile applications. I have experience implementing MVC and MVVM design patterns and I have worked with Android Architecture Components (DataBinding, LiveData, ViewModel) in combination with Dagger to create flexible apps. Furthermore, I have developed games in Unity and Phaser3 for mobile and web platform. I''m constantly working to improve my skills and learning how to create better software.'
+  brief: 'I''ve developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I''ve been a lead developer in most of the projects an I''ve also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I''m constantly working to improve my skills and learning how to create better software.'
+  image: professional_portrait-min-patrat.jpg
+contact:
   website: 'https://claudiuconstantinbogdan.me'
   phone: +40-738-334-197
   email: bogdan.claudiu93@gmail.com
-  picture: professional_portrait-min-patrat.jpg
-  location:
-    address: ""
-    postalCode: ""
-    city: Bucharest
-    countryCode: Romania
-    region: Bucharest
-  profiles:
+  other: []
+location:
+  address: ""
+  city: Bucharest
+  region: Bucharest
+  code: ""
+  country: Romania
+social:
+  -
+    label: ""
+    network: GitHub
+    user: ClaudiuBogdan
+    url: 'https://github.com/ClaudiuBogdan'
+  -
+    label: ""
+    network: Linkedin
+    user: 'Claudiu Constantin Bogdan'
+    url: 'https://www.linkedin.com/in/claudiuconstantinbogdan'
+employment:
+  summary: 'Fast learner, successful software developer.'
+  history:
     -
-      network: GitHub
-      username: ClaudiuBogdan
-      url: 'https://github.com/ClaudiuBogdan'
-    -
-      network: Linkedin
-      username: 'Claudiu Constantin Bogdan'
-      url: 'https://www.linkedin.com/in/claudiuconstantinbogdan'
-work:
+      employer: 'Mind Treat Studios'
+      url: 'https://www.mindtreatstudios.com'
+      position: 'Software Developer'
+      summary: ' As a software developer, a took part in all the software development processes. '
+      start: '2018-07-13'
+      keywords:
+        - Arduino
+        - Web
+        - WebGL
+        - Unity
+        - Android
+      courses:
+        - 'Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.'
+        - 'Designing application architecture/design patterns: MVC, MVVM.'
+        - 'Developing Virtual Reality game with Unity and Vuforia.'
+        - 'Developing web games with Phaser 3 engine and JavaScript.'
+        - 'Programming embedded systems (Arduino) to control lights, solenoid valves, motors.'
+projects:
   -
-    company: 'Mind Treat Studios'
-    website: 'https://www.mindtreatstudios.com'
-    position: 'Software Developer'
-    startDate: '2018-07-13'
-    summary: ' As a software developer, a took part in all the software development processes. '
-education:
-  -
-    institution: Udacity
-    courses:
-      - 'Automated Testing'
-      - Android
-      - Java
-    startDate: 2017-01
-    endDate: 2018-04
-  -
-    institution: 'Universidad de Sevilla'
-    courses:
-      - 'Data Algorithms'
-      - Optimization
-      - C
-    startDate: 2012-09
-    endDate: ""
-skills:
-  -
-    name: 'Android Development'
-    level: advanced
+    title: 'Sound of Colors'
+    start: 2019-01
+    end: 2019-02
+    category: Private
+    url: 'https://oskar.nextadv.m75.ro'
+    media: []
+    role: 'Lead Web Developer'
+    summary: ""
+    highlights:
+      - 'Integrated Web App with Spotify API'
+      - 'Used audio analysis data to create real time animation.'
+      - 'Deployed Single Page Application with Node.js, MongoDB and Docker'
+      - 'Implemented responsive web design.'
+      - 'Created share and print functionality.'
     keywords:
-      - Java
-      - 'Android SDK'
-      - 'Android Architecture'
-  -
-    name: 'Front-End Web Development'
-    level: intermediate
-    keywords:
-      - Vuejs
-      - JavaScript
-      - 'HTML 5'
-      - CSS/Sass
-      - Bootsrap4
-  -
-    name: 'Back-End Web Development'
-    level: intermediate
-    keywords:
-      - Nodejs
-      - JavaScript
+      - SpotifyAPI
+      - Docker
+      - VueJs
+      - NodeJs
       - Express
       - MongoDB
+      - AnimeJs
+      - Bootsrap4
   -
-    name: Unity3D
-    level: intermediate
+    title: 'Acces Taxi Driver/Passenger'
+    category: private
+    url: 'https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver'
+    repo: ""
+    start: '2018-07-13'
+    end: '2018-10-15'
+    media: []
+    role: 'Android Developer'
+    summary: 'Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.'
+    description: ""
+    highlights:
+      - 'Reduced the number of bugs by 90%'
+      - 'Refactored application architecture to implement MVVM with Android Architecture'
+      - 'Improve overall performance by more than 50%'
+      - 'Implemented pixel-perfect design.'
+      - 'Implemented Dagger2 and RxJava.'
     keywords:
-      - 'C#'
-      - .Net
-      - 'Particle System'
+      - AndroidSDK
+      - GoogleMaps
+      - Notifications
+      - 'Android Architecture'
+  -
+    title: 'MTS Website'
+    category: private
+    url: 'https://development.melon.m75.ro/mts_webpage/index.html'
+    repo: ""
+    media:
+      - professional_portrait-min-patrat.jpg
+    start: 2018-12
+    end: 2019-01
+    role: 'Lead Web Developer'
+    summary: ""
+    description: ""
+    highlights:
+      - 'Created modular web application for MTS studio.'
+      - 'Implemented swipe/scroll gesture in Phaser3'
+      - 'Create import module for adding new page levels.'
+    keywords:
+      - Phaser3
+      - 'HTML 5'
+      - CSS
+      - jQuery
+  -
+    title: 'Blood Cancer Campaign'
+    category: private
+    url: ""
+    start: 2018-12
+    end: 2018-12
+    media: []
+    role: 'Lead Unity Developer'
+    summary: ""
+    description: ""
+    highlights:
+      - 'Created blood cell animation with Unity particles system.'
+      - 'Integrated animation with real time video.'
+      - 'Created configuration mode to adjust animation parameters to fit input camera video.'
+    keywords:
+      - Unity3D
+      - 'Shuriken particles system'
+      - 3D
+      - WebcamTexture
+  -
+    title: 'Jurassic Box'
+    category: private
+    url: 'https://youtu.be/jzRzCRlRxPc'
+    start: 2018-11
+    end: 2018-12
+    repo: ""
+    media: []
+    role: 'Electrical Engineer'
+    summary: ""
+    description: ""
+    highlights:
+      - 'Build electronic system for cinema 4D project.'
+      - 'Created physical like button with Raspberry Pi and LCD screen.'
+      - 'Created movement detection system that triggers the dinosaur video.'
+      - 'Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino'
+    keywords:
+      - Arduino
+      - 'Raspberry Pi'
+      - 'Electronic sensors'
+  -
+    title: 'Ia Digitala'
+    category: private
+    url: 'https://bucurie.coresibrasov.ro/joaca'
+    repo: ""
+    media:
+      - 'https://www.youtube.com/watch?v=EN_GNhAtGVQ'
+    start: 2018-10
+    end: 2018-11
+    role: 'Lead Game Developer'
+    summary: ""
+    highlights:
+      - 'Created an clothes customization game with Phaser.'
+      - 'Created items menu to select different items to place over the base clothes.'
+      - 'Created tool menu to manipulate clothes items (size, rotation, flip, delete).'
+      - 'Implemented undo/redo system.'
+    keywords:
+      - Phaser3D
+      - FacebookSDK
+      - ImageMask
+      - MVC
+  -
+    title: Solitaire2048
+    category: private
+    url: ""
+    start: 2018-10
+    end: 2018-11
+    media: []
+    role: 'Game Developer'
+    summary: ""
+    highlights:
+      - 'Developed solitaire-like game with combo effect.'
+      - 'Learned to use phaser3 in less than a week.'
+      - 'Added sound effects to card interaction.'
+    keywords:
+      - Phaser3
+      - Web
+  -
+    title: 'Marsupius VR'
+    category: FOSS
+    url: ""
+    start: 2018-10
+    end: 2018-10
+    media: []
+    role: 'Unity Developer'
+    summary: ""
+    highlights:
+      - 'Debugged and completed VR project based on Vuforia and Unity3D.'
+      - 'Developed Android version of the application.'
+      - 'Improved Vuforia target detection.'
+    keywords:
+      - Unity3D
+      - Vuforia
+      - UnityAnimation
+      - Video
+education:
+  summary: 'Fast learner, successful software developer.'
+  level: degree
+  degree: BSCS
+  history:
+    -
+      institution: 'Universidad de Sevilla'
+      title: B.E.
+      url: 'http://www.us.es/'
+      highlights:
+        - 'Applying analytical methods (engineering mathematics – algebra, differentiation, function, geometry, trigonometry, statistics)'
+        - 'Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.'
+        - 'Understanding aeronautical sciences – stress, strain, static and dynamic systems, motion, force, electrical power and resistance, mass and weight'
+        - 'Working efficiently and effectively in an engineering environment '
+        - 'Using and communicating technical information'
+      start: 2012-09
+      end: ""
+      location:
+        city: Sevilla
+        region: Spain
+      summary: 'Aerospace Engineering degree (not graduated)'
+      description: 'Aerospace Engineering degree (not graduated)'
+      curriculum:
+        - 'Data Algorithms'
+        - Optimization
+        - C
+    -
+      institution: Udacity
+      title: 'Associate Android Developer'
+      url: 'https://eu.udacity.com/'
+      start: 2017-01
+      end: 2018-04
+      summary: 'Advanced Android Development'
+      curriculum:
+        - 'Automated Testing'
+        - Android
+        - Java
+      highlights:
+        - 'Writing tests to verify that the application''s logic and user interface are performing as expected, and executing those tests using the developer tools.'
+        - 'Implementation of the visual and navigational components of an application''s design.'
+        - 'Understanding of Android''s top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.'
+        - 'Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases.'
+        - 'Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets.'
+skills:
+  sets:
+    -
+      name: 'Android Development'
+      level: advanced
+      skills:
+        - Java
+        - 'Android SDK'
+        - 'Android Architecture'
+    -
+      name: 'Front-End Web Development'
+      level: intermediate
+      skills:
+        - Vuejs
+        - JavaScript
+        - 'HTML 5'
+        - CSS/Sass
+        - Bootsrap4
+    -
+      name: 'Back-End Web Development'
+      level: intermediate
+      skills:
+        - Nodejs
+        - JavaScript
+        - Express
+        - MongoDB
+    -
+      name: Unity3D
+      level: intermediate
+      skills:
+        - 'C#'
+        - .Net
+        - 'Particle System'
+  list: []
+languages:
+  -
+    language: English
+    level: advanced
+  -
+    language: Spanish
+    level: native
+  -
+    language: Romanian
+    level: native
 interests:
   -
     name: GitHub
@@ -94,167 +315,3 @@ interests:
       - Sicilian
       - 'King''s Gambit'
       - 'Ruy Lopez'
-references:
-  -
-    name: 'John Doe'
-    reference: 'Such-and-such is awesome! I''d hire him/her again in a second!'
-  -
-    name: 'Somebody Important'
-    reference: 'Hands-down *the best developer/manager/spelunker/coworker/etc* I''ve ever worked with. Emphasis *mine!*'
-languages:
-  -
-    language: English
-    level: native
-  -
-    language: Spanish
-    level: advanced
-  -
-    language: C++
-    level: intermediate
-projects:
-  -
-    name: 'Sound of Colors'
-    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
-    highlights:
-      - 'Integrated Web App with Spotify API'
-      - 'Used audio analysis data to create real time animation.'
-      - 'Deployed Single Page Application with Node.js, MongoDB and Docker'
-      - 'Implemented responsive web design.'
-      - 'Created share and print functionality.'
-    keywords:
-      - SpotifyAPI
-      - Docker
-      - VueJs
-      - NodeJs
-      - Express
-      - MongoDB
-      - AnimeJs
-      - Bootsrap4
-    startDate: 2019-01
-    endDate: 2019-02
-    url: 'https://oskar.nextadv.m75.ro'
-    roles:
-      - 'Lead Developer'
-  -
-    name: 'MTS Website'
-    description: ""
-    highlights:
-      - 'Created modular web application for MTS studio.'
-      - 'Implemented swipe/scroll gesture in Phaser3'
-      - 'Create import module for adding new page levels.'
-    keywords:
-      - Phaser3
-      - 'HTML 5'
-      - CSS
-      - jQuery
-    url: 'https://development.melon.m75.ro/mts_webpage/index.html'
-    roles:
-      - MTS
-  -
-    name: 'Blood Cancer Campaign'
-    description: ""
-    highlights:
-      - 'Created blood cell animation with Unity particles system.'
-      - 'Integrated animation with real time video.'
-      - 'Created configuration mode to adjust animation parameters to fit input camera video.'
-    keywords:
-      - Unity3D
-      - 'Shuriken particles system'
-      - 3D
-      - WebcamTexture
-    url: 'http://asteroids-demo.org'
-    roles:
-      - MTS
-  -
-    name: 'Jurassic Box'
-    description: ""
-    highlights:
-      - 'Build electronic system for cinema 4D project.'
-      - 'Created physical like button with Raspberry Pi and LCD screen.'
-      - 'Created movement detection system that triggers the dinosaur video.'
-      - 'Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino'
-    keywords:
-      - Arduino
-      - 'Raspberry Pi'
-      - 'Electronic sensors'
-    url: 'https://youtu.be/jzRzCRlRxPc'
-    roles:
-      - MTS
-  -
-    name: 'Ia Digitala'
-    description: ""
-    highlights:
-      - 'Created an clothes customization game with Phaser.'
-      - 'Created items menu to select different items to place over the base clothes.'
-      - 'Created tool menu to manipulate clothes items (size, rotation, flip, delete).'
-      - 'Implemented undo/redo system.'
-    keywords:
-      - Phaser3D
-      - FacebookSDK
-      - ImageMask
-      - MVC
-    url: 'https://bucurie.coresibrasov.ro/joaca'
-    roles:
-      - MTS
-  -
-    name: 'Romania Centenar'
-    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
-    highlights:
-      - 'Project Highlight #1'
-      - 'Project Highlight #2'
-      - 'Project Highlight #3'
-    keywords:
-      - C++
-      - 'Unreal Engine'
-      - 3D
-      - DirectX
-    url: 'http://asteroids-demo.org'
-    roles:
-      - MTS
-  -
-    name: Solitaire2048
-    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
-    highlights:
-      - 'Project Highlight #1'
-      - 'Project Highlight #2'
-      - 'Project Highlight #3'
-    keywords:
-      - C++
-      - 'Unreal Engine'
-      - 3D
-      - DirectX
-    url: 'http://asteroids-demo.org'
-    roles:
-      - MTS
-  -
-    name: 'Marsupius VR'
-    description: 'A 3D Asteroids clone with Unreal 4 and cross-platform C++.'
-    highlights:
-      - 'Project Highlight #1'
-      - 'Project Highlight #2'
-      - 'Project Highlight #3'
-    keywords:
-      - C++
-      - 'Unreal Engine'
-      - 3D
-      - DirectX
-    url: 'http://asteroids-demo.org'
-    roles:
-      - MTS
-  -
-    name: 'Acces Taxi Driver/Passenger'
-    description: 'Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.'
-    highlights:
-      - 'Reduced the number of bugs by 90%'
-      - 'Refactored application architecture to implement MVVM with Android Architecture'
-      - 'Improve overall performance by more than 50%'
-    keywords:
-      - AndroidSDK
-      - GoogleMaps
-      - Notifications
-      - 'Android Architecture'
-    startDate: '2018-07-13'
-    endDate: '2018-07-13'
-    url: 'https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver'
-    roles:
-      - MTS

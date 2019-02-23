@@ -2,8 +2,6 @@
 <?mso-application progid="Word.Document"?>
 <w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
   <w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
-
-
   <o:DocumentProperties>
     <o:Title>Resume for Claudiu Constantin Bogdan</o:Title>
     <o:Author>Claudiu Constantin Bogdan</o:Author>
@@ -162,8 +160,6 @@
       <w:ilst w:val="1"/>
     </w:list>
   </w:lists>
-
-
   <w:styles>
     <w:style w:type="paragraph" w:default="on" w:styleId="Normal">
       <w:name w:val="Normal"/>
@@ -188,16 +184,16 @@
         <w:spacing w:before="100" w:before-autospacing="on"/>
         <w:outlineLvl w:val="0"/>
         <w:pBdr>
-          <w:top w:val="single" w:sz="6" w:space="1" w:color="#EEEEEE" />
+          <w:top w:val="single" w:sz="6" w:space="1" w:color="EEEEEE" />
         </w:pBdr>
       </w:pPr>
       <w:rPr>
-        <wx:font wx:val="Trebuchet MS"/>
-        <w:rFonts w:ascii="Trebuchet MS" w:h-ansi="Trebuchet MS"/>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:color w:val="AEAAAA"/>
         <w:kern w:val="36"/>
-        <w:sz w:val="40"/>
-        <w:sz-cs w:val="40"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
       </w:rPr>
     </w:style>
     <w:style w:type="paragraph" w:styleId="Heading2">
@@ -207,18 +203,16 @@
       <w:link w:val="Heading2Char"/>
       <w:rsid w:val="00505903"/>
       <w:pPr>
-        <w:spacing w:before="600"/>
+        <w:spacing w:before="120"/>
         <w:outlineLvl w:val="1"/>
       </w:pPr>
       <w:rPr>
-        <w:color w:val="595959"/>
         <wx:font wx:val="Calibri"/>
         <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:b/>
         <w:b-cs/>
-        <!-- <w:caps/> -->
-        <w:sz-cs w:val="28"/>
-        <w:sz w:val="28"/>
+        <w:caps/>
+        <w:sz-cs w:val="36"/>
       </w:rPr>
     </w:style>
     <w:style w:type="paragraph" w:styleId="Heading3">
@@ -237,18 +231,6 @@
         <w:b-cs/>
       </w:rPr>
     </w:style>
-    <w:style w:type="character" w:styleId="FromTo">
-      <w:name w:val="FromTo"/>
-      <w:rsid w:val="004E2103"/>
-      <w:rPr>
-        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
-        <w:b w:val="off"/>
-        <w:b-cs/>
-        <w:color w:val="AEAAAA"/>
-        <w:sz w:val="28"/>
-        <w:sz-cs w:val="28"/>
-      </w:rPr>
-    </w:style>
     <w:style w:type="character" w:default="on" w:styleId="DefaultParagraphFont">
       <w:name w:val="Default Paragraph Font"/>
     </w:style>
@@ -256,7 +238,7 @@
       <w:name w:val="Normal Table"/>
       <wx:uiName wx:val="Table Normal"/>
       <w:rPr>
-        <wx:font wx:val="Times New Roman"/>
+        <wx:font wx:val="Calibri"/>
         <w:lang w:val="EN-US" w:fareast="EN-US" w:bidi="AR-SA"/>
       </w:rPr>
       <w:tblPr>
@@ -278,7 +260,7 @@
       <w:rPr>
         <w:strike w:val="off"/>
         <w:dstrike w:val="off"/>
-        <w:color w:val="2F5496"/>
+        <w:color w:val="0064BD"/>
         <w:u w:val="none"/>
         <w:effect w:val="none"/>
       </w:rPr>
@@ -303,9 +285,8 @@
         <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:b/>
         <w:b-cs/>
-        <!-- <w:caps/> -->
-        <w:sz-cs w:val="28"/>
-        <w:sz w:val="28"/>
+        <w:caps/>
+        <w:sz-cs w:val="36"/>
       </w:rPr>
     </w:style>
     <w:style w:type="character" w:styleId="Heading3Char">
@@ -313,10 +294,10 @@
       <w:link w:val="Heading3"/>
       <w:rsid w:val="001B7422"/>
       <w:rPr>
-        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:fareast="Calibri" w:h-ansi="Calibri" w:cs="Calibri"/>
         <w:color w:val="1F4D78"/>
-        <w:sz w:val="28"/>
-        <w:sz-cs w:val="28"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
       </w:rPr>
     </w:style>
     <w:style w:type="paragraph" w:styleId="NormalWeb">
@@ -336,12 +317,12 @@
       <w:link w:val="Heading1"/>
       <w:rsid w:val="00505903"/>
       <w:rPr>
-        <wx:font wx:val="Trebuchet MS"/>
-        <w:rFonts w:ascii="Trebuchet MS" w:h-ansi="Trebuchet MS"/>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:color w:val="AEAAAA"/>
         <w:kern w:val="36"/>
-        <w:sz w:val="40"/>
-        <w:sz-cs w:val="40"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
       </w:rPr>
     </w:style>
     <w:style w:type="character" w:styleId="Strong">
@@ -375,13 +356,13 @@
         <w:contextualSpacing/>
       </w:pPr>
       <w:rPr>
-        <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI"/>
-        <wx:font wx:val="Segoe UI"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <wx:font wx:val="Calibri"/>
         <w:b/>
         <w:spacing w:val="-10"/>
         <w:kern w:val="28"/>
-        <w:sz w:val="48"/>
-        <w:sz-cs w:val="56"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
       </w:rPr>
     </w:style>
     <w:style w:type="character" w:styleId="TitleChar">
@@ -389,11 +370,11 @@
       <w:link w:val="Title"/>
       <w:rsid w:val="002D3B7B"/>
       <w:rPr>
-        <w:rFonts w:ascii="Segoe UI" w:h-ansi="Segoe UI"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:spacing w:val="-10"/>
         <w:kern w:val="28"/>
-        <w:sz w:val="48"/>
-        <w:sz-cs w:val="56"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
       </w:rPr>
     </w:style>
     <w:style w:type="paragraph" w:styleId="ListParagraph">
@@ -428,10 +409,10 @@
       <w:rPr>
         <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
         <w:sz-cs w:val="24"/>
+        <w:sz w:val="24"/>
       </w:rPr>
     </w:style>
   </w:styles>
-
   <w:docPr>
     <w:view w:val="print"/>
     <w:zoom w:percent="98"/>
@@ -473,167 +454,99 @@
       <wsp:rsid wsp:val="00FE101B"/>
     </wsp:rsids>
   </w:docPr>
-
-
   <w:body>
     <wx:sect>
-
-
       <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="007D096C" wsp:rsidP="00C146CA">
         <w:pPr>
           <w:pStyle w:val="Title"/>
+          <w:tabs>
+            <w:tab w:val="right" w:pos="9360"/>
+          </w:tabs>
         </w:pPr>
         <w:r>
-
-
           <w:t>Claudiu Constantin Bogdan</w:t>
         </w:r>
-      </w:p>
-
-
-      <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="00505903" wsp:rsidP="00C146CA">
-        <w:pPr>
-          <w:rPr>
-            <w:sz-cs w:val="20"/>
-          </w:rPr>
-        </w:pPr>
+        <w:r>
+          <w:tab/>
+        </w:r>
         <w:hlink w:dest="mailto:bogdan.claudiu93@gmail.com">
           <w:r wsp:rsidRPr="003876BF">
             <w:rPr>
               <w:rStyle w:val="Hyperlink"/>
-              <w:sz w:val="16"/>
+              <w:sz-cs w:val="20"/>
             </w:rPr>
-            <w:t>bogdan.claudiu93@gmail.com<w:br/></w:t>
+            <w:t>bogdan.claudiu93@gmail.com</w:t>
           </w:r>
         </w:hlink>
+        <w:r>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+          <w:t> - </w:t>
+        </w:r>
         <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0">
           <w:rPr>
-            <w:sz w:val="16"/>
+            <w:sz-cs w:val="20"/>
           </w:rPr>
-          <w:t>+40-738-334-197<w:br/></w:t>
+          <w:t>+40-738-334-197</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+          <w:t> - </w:t>
         </w:r>
         <w:hlink w:dest="https://claudiuconstantinbogdan.me">
           <w:r wsp:rsidRPr="003876BF">
             <w:rPr>
               <w:rStyle w:val="Hyperlink"/>
-              <w:sz w:val="16"/>
+              <w:sz-cs w:val="20"/>
             </w:rPr>
-            <w:t>https://claudiuconstantinbogdan.me</w:t>
+            <w:t>claudiuconstantinbogdan.me</w:t>
           </w:r>
         </w:hlink>
       </w:p>
-
-
-      
-
-
+      <w:p><w:r><w:rPr></w:rPr><w:t>I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects an I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.</w:t></w:r></w:p>
       <wx:sub-section>
-  <wx:pBdrGroup>
-    <wx:borders>
-      <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-    </wx:borders>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00D1523B" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="Heading1"/>
-        <w:ind w:left="-720"/>
-      </w:pPr>
-      <w:r>
-        <w:pict>
-          <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
-            <v:stroke joinstyle="miter"/>
-            <v:formulas>
-              <v:f eqn="if lineDrawn pixelLineWidth 0"/>
-              <v:f eqn="sum @0 1 0"/>
-              <v:f eqn="sum 0 0 @1"/>
-              <v:f eqn="prod @2 1 2"/>
-              <v:f eqn="prod @3 21600 pixelWidth"/>
-              <v:f eqn="prod @3 21600 pixelHeight"/>
-              <v:f eqn="sum @0 0 1"/>
-              <v:f eqn="prod @6 1 2"/>
-              <v:f eqn="prod @7 21600 pixelWidth"/>
-              <v:f eqn="sum @8 21600 0"/>
-              <v:f eqn="prod @7 21600 pixelHeight"/>
-              <v:f eqn="sum @10 21600 0"/>
-            </v:formulas>
-            <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
-            <o:lock v:ext="edit" aspectratio="t"/>
-          </v:shapetype>
-          <w:binData w:name="wordml://03000002.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPlQTFRFv8HDv8HEv8LQv8LSv8zdv8HGv8LKv8HKv8jXv8bVv8LOwczdzcHDycLEwcHDxcHGycLD18bD1cTDzcLDx8HD28jD08LDw8HD1cbDxcHD2czS1czSy8bEw9Dmzdzxz97xydj1xdLqx9Tqy9jszdz7wc7iy9bu0+P/2ef72e//2/X/+djK4czD6dDE89bK4crD99rM997Q/dzO5c7E89TI997T//vd/efX/+HQ++XT//Hd/+3V/+nT///5+/n/+//////75f//6f///f/////s///q8//////1///37/////vo///k4fH/5//////w4+/7//Hk5fH/////unTQ4QAAAQ1JREFUSMft1GtTQUEYB/A/JSlCoXJJUYqKqNwvFaFDquf7f5h0jrMXe3BmvGrGvnp29jc7O/99dkG2BzZ0Q/8/bbVt01vsd+zRlzskbO5a9jqul9OK78woqgfOV6r5kwtpJYCtN726x3a3F4QruYBO5c6NXr0f4pyofiRbWEhqhNxZUiwsJOWx2yfFwkIOwrgwKslClWJUooUqjahUq9NhAUh1Gf2Lik0eAM+HsKsWhCNtLo8iuGSyeIy9sXRW7YTb5qk7ZyFZAoI1o5qTPFdmeVSyFG7LtDwqWYo9MLMls2fmpNRZU+v8pEdc6bNJWJZyv2rRLyGq79jP8lcgRrXiwTzxqFbR53hm/S/jF09ZANBqGaBnAAAAAElFTkSuQmCC</w:binData>
-          <v:shape id="_x0000_i1028" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-            <v:imagedata src="wordml://03000002.png" o:title="fa-code"/>
-          </v:shape>
-        </w:pict>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>SKILLS</w:t>
-      </w:r>
-    </w:p>
-  </wx:pBdrGroup>
-
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>SKILLS</w:t>
+    </w:r>
+  </w:p>
   <w:tbl>
     <w:tblPr>
       <w:tblW w:w="0" w:type="auto"/>
       <w:tblLook w:val="04A0"/>
     </w:tblPr>
     <w:tblGrid>
-      <w:gridCol w:w="828"/>
-      <w:gridCol w:w="8748"/>
+      <w:gridCol w:w="3000"/>
+      <w:gridCol w:w="8000"/>
     </w:tblGrid>
 
 
     <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
+          <w:tcW w:w="3000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#428BCA"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:8pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
+            <w:t>Android Development:</w:t>
           </w:r>
         </w:p>
       </w:tc>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:tcW w:w="8000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Android Development</w:t>
-          </w:r>
-        </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>Java  Android SDK  Android Architecture</w:t>
+            <w:t>Java, Android SDK, Android Architecture</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -641,58 +554,25 @@
 
 
     <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
+          <w:tcW w:w="3000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#F1C40F"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:16pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
+            <w:t>Front-End Web Development:</w:t>
           </w:r>
         </w:p>
       </w:tc>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:tcW w:w="8000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Front-End Web Development</w:t>
-          </w:r>
-        </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>Vuejs  JavaScript  HTML 5  CSS/Sass  Bootsrap4</w:t>
+            <w:t>Vuejs, JavaScript, HTML 5, CSS/Sass, Bootsrap4</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -700,58 +580,25 @@
 
 
     <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
+          <w:tcW w:w="3000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#F1C40F"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:16pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
+            <w:t>Back-End Web Development:</w:t>
           </w:r>
         </w:p>
       </w:tc>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:tcW w:w="8000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Back-End Web Development</w:t>
-          </w:r>
-        </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>Nodejs  JavaScript  Express  MongoDB</w:t>
+            <w:t>Nodejs, JavaScript, Express, MongoDB</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -759,58 +606,25 @@
 
 
     <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
-      <w:trPr>
-        <w:trHeight w:val="882"/>
-      </w:trPr>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="828" w:type="dxa"/>
+          <w:tcW w:w="3000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1028" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:38.25pt;z-index:1" fillcolor="#F1C40F"  strokeweight="0"/>
-            </w:pict>
-          </w:r>
-          <w:r>
-            <w:rPr>
-              <w:noProof/>
-            </w:rPr>
-            <w:pict>
-              <v:rect id="_x0000_s1026" style="position:absolute;left:0;text-align:left;margin-left:20.6pt;margin-top:1.4pt;width:7.15pt;height:16pt;z-index:2" fillcolor="#FFFFFF" strokeweight="0"/>
-            </w:pict>
+            <w:t>Unity3D:</w:t>
           </w:r>
         </w:p>
       </w:tc>
       <w:tc>
         <w:tcPr>
-          <w:tcW w:w="8748" w:type="dxa"/>
+          <w:tcW w:w="8000" w:type="dxa"/>
           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
         </w:tcPr>
-        <w:p>
-          <w:pPr>
-            <w:spacing w:before="120"/>
-          </w:pPr>
-          <w:r>
-            <w:rPr>
-              <w:sz w:val="24"/>
-              <w:b/>
-              <w:caps/>
-            </w:rPr>
-            <w:t>Unity3D</w:t>
-          </w:r>
-        </w:p>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:rPr>
-              <w:caps/>
-              <w:spacing w:val="22"/>
-            </w:rPr>
-            <w:t>C#  .Net  Particle System</w:t>
+            <w:t>C#, .Net, Particle System</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -820,52 +634,16 @@
   </w:tbl>
 </wx:sub-section>
 
-
-
-
-
-
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-
       <wx:sub-section>
 
-
-
-        <wx:pBdrGroup>
-          <wx:borders>
-            <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-          </wx:borders>
-          <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
-            <w:pPr>
-              <w:pStyle w:val="Heading1"/>
-              <w:ind w:left="-720"/>      
-            </w:pPr>
-            <w:r>
-              <w:pict>
-                <w:binData w:name="wordml://03000003.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASZQTFRFv8HDv8HOv8HGv8LIv8TTv8zdv8LOv8bVv8LEv8HEv8HKv8rbv8LQv8HIv8jXv8HMv8LKv8TQz8bEw8LEw8LGydDfyczOz8jGw8jOz8zKw8HDwcbMz8zOycTDy8zOzcHD1cTDxcHDz8LD3crEwcHDwcLEw8LDycHDx8HD0cLDy8HD1drb3dTMy9Tb3drTycLDwcrV3drb1cjE29rb287Izdz/z9zsxdDky9r7ydbs2/X/2/H/1eXw79LG79zQ69bK7dLG487E897Q89bK/+3d///d/+nT8+vd//XZ/+fT//HZ/ePS8+XV8+/f//vb9///4f//7//////q4evw8+/s6+/w7f/////o/f//4+/w8+/w7+/w4fv/4//////59+/w8/P5////sDySyAAAAP9JREFUSMdjSCQaMIwqHZJKXYSEsQARUX9MpbYMWAFjAD2VMomJMzBISEoxSMvIMjDLieNRyhLoKs8YEKTAYArksia6KeJWyhZsJ8Vk5q7EYB6izMAeaq9CHW+pqjEwcAAxpzDQQFUVvG71UOeyArrVAuxWTzxuZQnzUueyDgcpdWDgjvCWoncU8ET6aPDa+GoyWEY5MvBFO0nh85afFn8MUVEADixVYEBBAkuNOm4V0NZR4dTV02cwMDRiEDQ2oU5yIcFUUpMLHOANAVC4wlXidysothg4wLlahUBsgQCXFQoXn1KoHJWVkuAAuLdwK3XGEQWxmErj4qOwgQS4AgDkC738cGCe/AAAAABJRU5ErkJggk==</w:binData>
-                <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-                  <v:imagedata src="wordml://03000003.png" o:title="fa-building"/>
-                </v:shape>
-              </w:pict>
-            </w:r>
-            <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-              <w:t>EMPLOYMENT</w:t>
-            </w:r>
-          </w:p>
-        </wx:pBdrGroup>
-
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>EMPLOYMENT</w:t>
+    </w:r>
+  </w:p>
 
 
   <wx:sub-section>
@@ -906,81 +684,6 @@
       <w:r><w:rPr></w:rPr><w:t>As a software developer, a took part in all the software development processes.</w:t></w:r>
     </w:p>
 
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Designing application architecture/design patterns: MVC, MVVM.</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developing Virtual Reality game with Unity and Vuforia.</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developing web games with Phaser 3 engine and JavaScript.</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Programming embedded systems (Arduino) to control lights, solenoid valves, motors.</w:t></w:r>
-    </w:p>
 
   </wx:sub-section>
 
@@ -989,28 +692,14 @@
 
       <wx:sub-section>
 
-<wx:pBdrGroup>
-  <wx:borders>
-    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-  </wx:borders>
-  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
     <w:pPr>
       <w:pStyle w:val="Heading1"/>
-      <w:ind w:left="-720"/>      
     </w:pPr>
-    <w:r>
-      <w:pict>
-        <w:binData w:name="wordml://03000001.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR1QTFRFv8HEv8HDv8jZv8HGv8rbv8HIv8HOv8zdv8bVv8TOv8TMv8LK08TD1cTD2dDOz8rIw8LDwcLGycrOz9DX0crIw8LEwcHDw8LGycrTx8HD2cjDzcHDw8bQ29zZz8TDxcHDy8TDx8LD3drizdzxz97xzdz/xdTs09zqz+H70+P70+X/0eH/0+Px1eX51+v/3ef11+Hw1en/99jK+drM49rb7dTI7dbK8djM9drO99zO89bK5c7E/9zO79rQ8dTI7drO69zi/efZ/+/X/+HQ///d/+vV8+HT///7+fX5///m9//////q+f///fXx8+vk6+/w9/n/5fH/4//////w7////f/////54f//+/////v1//Hm4+Hq//vw8fv/////A0CiDgAAARBJREFUSMdjiCMRMIxqGNUwqoHaGtw9SNRgxKBBkgZPHkYmL1I0GDMyMmuSoAFoASNOKxiwW4DbCgYcFuC0ggGHBUArtIjU4M0L0cDI4kNQg6+fCR+/ACMMCAoJK/kH4NLgKCIqxogNMIhLBGLTYMyIEzBoY9PgbopTvTJ2P7ibiRGhHtnT2HUwq+AOJXdzTB2sOviC1d1CjJB69IizRNXBqksopp0kUTSwBRHS4Ixmgx4hDVZoflAlpMEaTYMaAQ3BUmga2AlocJGGqJORlYMwOELwa3CVB6ni1A+NC3NTAAdTOH4NNkA1XAahYHaYrSIwYRji12DHyK0eAedF2stjBhOqhqjoCBR+jEMs/UtvAMiRyWLg7gtIAAAAAElFTkSuQmCC</w:binData>
-        <v:shape id="_x0000_i1031" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-          <v:imagedata src="wordml://03000001.png" o:title="star-icon"/>
-        </v:shape>
-      </w:pict>
-    </w:r>
-    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+    <w:r wsp:rsidRPr="00C146CA">
       <w:t>PROJECTS</w:t>
     </w:r>
   </w:p>
-</wx:pBdrGroup>
 
 
   <wx:sub-section>
@@ -1022,7 +711,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Lead Developer, </w:t>
+        <w:t>Lead Web Developer, </w:t>
       </w:r>
       <w:hlink w:dest="https://oskar.nextadv.m75.ro">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1064,7 +753,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Integrated Web App with Spotify API</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1079,7 +768,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Used audio analysis data to create real time animation.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1094,7 +783,37 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Deployed Single Page Application with Node.js, MongoDB and Docker</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented responsive web design.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created share and print functionality.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1109,616 +828,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>MTS Website</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Blood Cancer Campaign</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Jurassic Box</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Ia Digitala</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Romania Centenar</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Solitaire2048</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
-      </w:r>
-      <w:hlink w:dest="http://asteroids-demo.org">
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:rPr>
-            <w:rStyle w:val="Hyperlink"/>
-          </w:rPr>
-          <w:t>Marsupius VR</w:t>
-        </w:r>
-      </w:hlink>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.</w:t></w:r>
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #1</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #2</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Project Highlight #3</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>MTS, </w:t>
+        <w:t>Android Developer, </w:t>
       </w:r>
       <w:hlink w:dest="https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1735,7 +845,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>2018-07 — 2018-07</w:t>
+        <w:t>2018-07 — 2018-10</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -1792,6 +902,588 @@
       </w:pPr>
       <w:r><w:rPr></w:rPr><w:t>Improve overall performance by more than 50%</w:t></w:r>
     </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented pixel-perfect design.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented Dagger2 and RxJava.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Lead Web Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://development.melon.m75.ro/mts_webpage/index.html">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>MTS Website</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-12 — 2019-01</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created modular web application for MTS studio.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented swipe/scroll gesture in Phaser3</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Create import module for adding new page levels.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Lead Unity Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="http://asteroids-demo.org">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Blood Cancer Campaign</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-12 — 2018-12</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created blood cell animation with Unity particles system.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Integrated animation with real time video.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created configuration mode to adjust animation parameters to fit input camera video.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Electrical Engineer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://youtu.be/jzRzCRlRxPc">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Jurassic Box</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-11 — 2018-12</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Build electronic system for cinema 4D project.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created physical like button with Raspberry Pi and LCD screen.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created movement detection system that triggers the dinosaur video.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Lead Game Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://bucurie.coresibrasov.ro/joaca">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Ia Digitala</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-10 — 2018-11</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created an clothes customization game with Phaser.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created items menu to select different items to place over the base clothes.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created tool menu to manipulate clothes items (size, rotation, flip, delete).</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Implemented undo/redo system.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Game Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="http://asteroids-demo.org">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Solitaire2048</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-10 — 2018-11</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed solitaire-like game with combo effect.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Learned to use phaser3 in less than a week.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Added sound effects to card interaction.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Unity Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="http://asteroids-demo.org">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Marsupius VR</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2018-10 — 2018-10</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Debugged and completed VR project based on Vuforia and Unity3D.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed Android version of the application.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Improved Vuforia target detection.</w:t></w:r>
+    </w:p>
 
   </wx:sub-section>
 
@@ -1799,30 +1491,17 @@
 </wx:sub-section>
 
       
+      
       <wx:sub-section>
 
-<wx:pBdrGroup>
-  <wx:borders>
-    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-  </wx:borders>
-  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
     <w:pPr>
       <w:pStyle w:val="Heading1"/>
-      <w:ind w:left="-720"/>      
     </w:pPr>
-    <w:r>
-      <w:pict>
-        <w:binData w:name="wordml://03000004.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAMAAADyHTlpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaFQTFRFv8HDv8LIv8HGv8HEv8HKv8HMv8jXv8HOv8jZv8TT3dLS2c7Kw8HDwcbM08rIwcHDwcTKz9Lbz8jGy9DXy8bEyczTycTDxcrSx8LDw8jV2dDMxcHD3dLOw8jO1cTDx8rSwc7fzdLbz8LD1czK3dLTx8HD28jDy8HDy8zOz8rI0cLD3crD18jE0cjGyc7Z29LQz8rKxcLEw8LEw8TKy8zQ1djdzcHD1drk09bi09jm0dbizdz/xdLqy9jsxdTswc7i3ePs2eHo2+Ps2e3/z+H/3ev/2/X/3fn/2e//z+H71en/69zT6djS49LO/d7Q6drT4czD59TQ/97O/drM79LG5c7E8ePZ+eHS7eHX8+Pb/+/X/ePS8ePb//Xb9eXZ7+Pd///d/+nT/+HQ///7+evk8fX7///59+fi6/P5//v16ev1/f////nz5efz+////fXs+fv/+/Po9/n/6////evi9///8/n////q//nu4+fz///i+fHw9fX7///18//q4f/q8//i//nm6+/7///o+f//7///4///9+/w8+/w8/P5////rwMOhgAAAWBJREFUSMdj6CIaMIwqHVVKL6XJKVzmqUQoTUvn5mEAAl6LDLxKM8P4+BngQEAwKxu70hxvISR1EMAonJuHrjTfR4QBO2ASdShAKC30FWPAC8Qdi8BKwyUYiACSxUClJVLShFXyWpaCHZCcIoPXBbLmZUjeKpfDoYxZ3qkANQT8+FmcK/zRQ4tJtDIPPVyTAxgUQMGdGYGIA0ZF1BiAKq1SYnbpCgQHSVqkMjBmBawywJ5QcUVXGqXK4tYVAPQoOJ0kV9eAU4MUMBit0ZVG87C616pBYh5sXmaMMjjVYCiNVWdgYKuDBwKjhibcxehKg4Bi7PVYw8sGm6kNWsQo7QpmYPGo1cYWA57oSkMYmLy6GnUwVdpmoysNBbs/OU4XNbL0mjCiABROdpCsEK9vYGgEBMYmpmiRBVHaDPS8PXGZO8GMgYGjhSilicDEzdlKlNIkYOSwtxGlNK29o6OToFsBkPOxfsuGle0AAAAASUVORK5CYIJ=</w:binData>
-        <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-          <v:imagedata src="wordml://03000004.png" o:title="fa-mortar-board"/>
-        </v:shape>
-      </w:pict>
-    </w:r>
-    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+    <w:r wsp:rsidRPr="00C146CA">
       <w:t>EDUCATION</w:t>
     </w:r>
   </w:p>
-</wx:pBdrGroup>
 
 
   <wx:sub-section>
@@ -2097,28 +1776,14 @@
       
       <wx:sub-section>
 
-<wx:pBdrGroup>
-  <wx:borders>
-    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-  </wx:borders>
-  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
     <w:pPr>
       <w:pStyle w:val="Heading1"/>
-      <w:ind w:left="-720"/>      
     </w:pPr>
-    <w:r>
-      <w:pict>
-        <w:binData w:name="wordml://03000015.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABEpJREFUeNrsV2tz2kYUXQmBBQghZDAYZFsmxo/4VbfOtNPp3+9MmzpxqF8EAyYEbCxjLITEQwipuwIMxIChqSeZqTT6sivp7rnnnj13hRmGAb6nCwff2WUBsgBZgCxAFiALkAXIAmQBsgBZgCxA/zNAxFdHkEppQdL7Y4c7EA578W8GKJ0+LSjDU3cS/uZ1iHhZQHpNqqlf/nTjDrcr4POXGqLapUg3DB20hXQi5N9h/xUkbLp/+9vz3y+F9pezDt/Gr7uB4QKmjuJF2YCPYr/sBvEXE7WHoewEhvXuR94aslgZuvVA1D8Hn6gPmURRezmGBi/t+vjPZHWKr2zM3s8zF25mUhvpk1R1uhzaYuLiVv+vGNLKheyna0FudqSMYzaSmo8GtVSq3IBDz8pvB0v4CLjHbwuKDjDK7agpTR3Y2KBXFytSs91BhtudLBuOvlp0ETMAUktn8fP75tjk7MzemxG10IunfyRFFXQU7cz/dZKpj+ESc3Jb+2t+YpptLxXjF4lKy8zGHYqEwzSJUpcgYWXZjE+Q1Ij8tNvEFUID4W5uBXEpU2r00Ng966t8J4z4OZ97qKtGPX/+Tl3/6aldEU84TycRGsw1H/1xe/HxMXGfqfXia9XC6SV7GKMH08jFUwL6zhndhuQ9JC+upUd2WjURuMMMDOalmCAnFU7PrkqtlnB5xvj3w8QkUd+kilABgPDyhwNoQDnxASkDSofb9NoAMGThU2k4jawC18focGyZBvpVrthEzCys73LIBJBVlh9NgI7sbIdp6B1GNffxYeIuy5dE5H7OcCyCD9Ti/GOpYdZiZ5cPxQIUWkIq5vvSeW/CdfjWfngFadPy5aqJPrgZ8q5thSjsyY6jo+us3SxhQZxQMrnaQGnMeTjXgOucmLWA6xGtXPw4B3QVJWeIheMPt+YWaCh96aCJBxnBBxTNoyG9thOqvL2pm1Y5/ygaat7tuBfVdksCgBnHkKaZtBKEo1+M7HXPddS6IirwrneMQGt2hkoNkoq5Tel0XlRURLON9HRjkLEY70QsCYV8fzGWdDzbXAkCDtsQF9q63WB8NKjkZH2oz9YQJmLOTXW/xsng6nJf4m4HlFm73agCsNCt0PIGX0uXXUtcP0y5oT4LiPKQxF1Ta1bzNRDtVo1gN/bZwZdqqaOjugowJnKww400GR9FAkEBspTVAY/3hLx5EBmSx71ZaJudniRqzs/A5ED9+rIwxhU14fJORoHoEDf2SMOxHhhXr96O7a9SJllGwiSZCDOxly2uhdxwSqtkj85utBEOfpyoIMlQCyv+CQ1ydTmEdjt0mpOc+CQM8iHTpTDP8obv2dYxzqlv8oWSaG43wsMdHvDkMyfbzPt4xxsx0hOILgVNc+85Nei41AinnrWXYS4fv7cbIac6bWf/PsmX27P1smm7PcBsLmqeX+EXWMcspwlVTCczQkVuGV/T7b/l9Y8AAwCSXjehR+kgEQAAAABJRU5ErkJggg==</w:binData>
-        <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-          <v:imagedata src="wordml://03000015.png" o:title="fa-bicycle"/>
-        </v:shape>
-      </w:pict>
-    </w:r>
-    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+    <w:r wsp:rsidRPr="00C146CA">
       <w:t>INTERESTS</w:t>
     </w:r>
   </w:p>
-</wx:pBdrGroup>
 
   <wx:sub-section>
 
@@ -2159,112 +1824,6 @@
 
   </wx:sub-section>
 </wx:sub-section>
-
-      <wx:sub-section>
-
-<wx:pBdrGroup>
-  <wx:borders>
-    <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-  </wx:borders>
-  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
-    <w:pPr>
-      <w:pStyle w:val="Heading1"/>
-      <w:ind w:left="-720"/>      
-    </w:pPr>
-    <w:r>
-      <w:pict>
-        <w:binData w:name="wordml://03000016.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAArlJREFUeNrsl91T2kAQwEMIIYQQPhoDWlBaYDogOD7UGTu2//9THS3WMopQNUoIUSEkIcZ8NJcp0I44ggTIQ+7lcpvM3i+7e7t7PtM0ITcNGHLZ8IA8IA/IA/KAPCAPyAPygFw2EKcUGXz9tHknGAiORTYyWTqBvk2Pz5meWmgcHt8KY00+fC3/uZiEV+Wy7mUb0Pgj6WQsFvBBkCl3GjVuZTHU42TdmnCqkP9U3v1SSQetlX7fulkRkNYRHq3JT0Rxe02mSECkqQNjJUDGtSTbYRNL/ZUQqH1WVEVYAZDWrrF9yxIwEU2NQkpWwIRi5NKBhPr3c+7JMk84m8sOdT2wom7zROHl5iHtvvqLAdEToAuVzaE1DIbhn4CQjKNitwd+Gg3jOLJwIOWievIAjEO+L5ZSIz0a2xE08PDEN6r86Gt/iN4qlNLkolym3Z4c3kggdMLrpdy/27Q4cVKm1Qdco3p0ITuRqbW7+vEZI+kTXgViO3vlxGtWNuR242edGZiQP1o+qFBzWkht/p5IgwSpaWjAHngyv70GcpQuctzcMSQr6jNZKL1b/EjiM/gbR5BFHnsYnYnG8lqzL4IZIxJu6IeUxtG1nTwjVBpxAxC2SYXs+EAwGHIDkBWpU++zFCDhjJXs8kvEXQFk3A3sYkvQHxBXAMEhvw1iGM66DPb53oSvce0+SGXBUMxJoCC9/+3gayYyMxNbq/d0UIOpTcJJIFVi+B4vyLbZDbUrarMdG5zO4c60Hzhm3bAGkCldnVaHsgHz44gB5SxCr6eyG0n0ZTViRwL+CgSJ6fjnq/bjQhtOxCg6GSUJcgynivzlea0lWbbE3m3vb8cdAnrBhQrbvmqxXP/xdd8FEjt7pQQCLRTof7I21xUVWX+uyk/E06ViZuoO1qmr9LgXE2TVHLYEM7TSo/FHgAEAC/8S0Mwjye0AAAAASUVORK5CYII=</w:binData>
-        <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-          <v:imagedata src="wordml://03000016.png" o:title="fa-bicycle"/>
-        </v:shape>
-      </w:pict>
-    </w:r>
-    <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-      <w:t>REFERENCES</w:t>
-    </w:r>
-  </w:p>
-</wx:pBdrGroup>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>John Doe</w:t>
-      </w:r>
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>, Manager @ Somewhere Inc.</w:t>
-        </w:r>
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t> (professional)</w:t>
-        </w:r>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Contact information available on request.</w:t></w:r>
-    </w:p>
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Jane Q. Fullstacker</w:t>
-      </w:r>
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>, Coworker</w:t>
-        </w:r>
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t> (technical)</w:t>
-        </w:r>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>??? — Present</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Contact information available on request.</w:t></w:r>
-    </w:p>
-  </wx:sub-section>
-
-
-</wx:sub-section>
-
-
 
       <w:sectPr wsp:rsidR="00B43FDC" wsp:rsidRPr="000A3AF0" wsp:rsidSect="001B7422">
         <w:pgSz w:w="12240" w:h="15840"/>

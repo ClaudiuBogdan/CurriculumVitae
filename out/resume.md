@@ -4,7 +4,7 @@ Email: bogdan.claudiu93@gmail.com
 Tel: +40-738-334-197
 Web: https://claudiuconstantinbogdan.me
 
-I'm an Android Developer certified by Google, with experience in developing, debugging and refactoring mobile applications. I have experience implementing MVC and MVVM design patterns and I have worked with Android Architecture Components (DataBinding, LiveData, ViewModel) in combination with Dagger to create flexible apps. Furthermore, I have developed games in Unity and Phaser3 for mobile and web platform. I'm constantly working to improve my skills and learning how to create better software.
+I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects an I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.
 
 ## SKILLS
 
@@ -18,104 +18,26 @@ I'm an Android Developer certified by Google, with experience in developing, deb
 ### *Software Developer*, [Mind Treat Studios](https://www.mindtreatstudios.com) (2018-07 — Present)
 
  As a software developer, a took part in all the software development processes. 
-  - Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.
-  - Designing application architecture/design patterns: MVC, MVVM.
-  - Developing Virtual Reality game with Unity and Vuforia.
-  - Developing web games with Phaser 3 engine and JavaScript.
-  - Programming embedded systems (Arduino) to control lights, solenoid valves, motors.
 
 
 ## PROJECTS
 
-### *Lead Developer*, [Sound of Colors](https://oskar.nextadv.m75.ro) (2019-01 — 2019-02)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
+### *Lead Web Developer*, [Sound of Colors](https://oskar.nextadv.m75.ro) (2019-01 — 2019-02)
 
 
-### *MTS*, [MTS Website](http://asteroids-demo.org) (??? — Present)
 
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
+  - Integrated Web App with Spotify API
 
-  - Project Highlight #2
+  - Used audio analysis data to create real time animation.
 
-  - Project Highlight #3
+  - Deployed Single Page Application with Node.js, MongoDB and Docker
 
+  - Implemented responsive web design.
 
-### *MTS*, [Blood Cancer Campaign](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
+  - Created share and print functionality.
 
 
-### *MTS*, [Jurassic Box](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
-
-
-### *MTS*, [Ia Digitala](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
-
-
-### *MTS*, [Romania Centenar](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
-
-
-### *MTS*, [Solitaire2048](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
-
-
-### *MTS*, [Marsupius VR](http://asteroids-demo.org) (??? — Present)
-
-A 3D Asteroids clone with Unreal 4 and cross-platform C++.
-Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.
-  - Project Highlight #1
-
-  - Project Highlight #2
-
-  - Project Highlight #3
-
-
-### *MTS*, [Acces Taxi Driver/Passenger](https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver) (2018-07 — 2018-07)
+### *Android Developer*, [Acces Taxi Driver/Passenger](https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver) (2018-07 — 2018-10)
 
 
 Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.
@@ -124,6 +46,80 @@ Developed two enterprise applications based on Google Maps and Google Cloud Mess
   - Refactored application architecture to implement MVVM with Android Architecture
 
   - Improve overall performance by more than 50%
+
+  - Implemented pixel-perfect design.
+
+  - Implemented Dagger2 and RxJava.
+
+
+### *Lead Web Developer*, [MTS Website](https://development.melon.m75.ro/mts_webpage/index.html) (2018-12 — 2019-01)
+
+
+
+  - Created modular web application for MTS studio.
+
+  - Implemented swipe/scroll gesture in Phaser3
+
+  - Create import module for adding new page levels.
+
+
+### *Lead Unity Developer*, Blood Cancer Campaign (2018-12 — 2018-12)
+
+
+
+  - Created blood cell animation with Unity particles system.
+
+  - Integrated animation with real time video.
+
+  - Created configuration mode to adjust animation parameters to fit input camera video.
+
+
+### *Electrical Engineer*, [Jurassic Box](https://youtu.be/jzRzCRlRxPc) (2018-11 — 2018-12)
+
+
+
+  - Build electronic system for cinema 4D project.
+
+  - Created physical like button with Raspberry Pi and LCD screen.
+
+  - Created movement detection system that triggers the dinosaur video.
+
+  - Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino
+
+
+### *Lead Game Developer*, [Ia Digitala](https://bucurie.coresibrasov.ro/joaca) (2018-10 — 2018-11)
+
+
+
+  - Created an clothes customization game with Phaser.
+
+  - Created items menu to select different items to place over the base clothes.
+
+  - Created tool menu to manipulate clothes items (size, rotation, flip, delete).
+
+  - Implemented undo/redo system.
+
+
+### *Game Developer*, Solitaire2048 (2018-10 — 2018-11)
+
+
+
+  - Developed solitaire-like game with combo effect.
+
+  - Learned to use phaser3 in less than a week.
+
+  - Added sound effects to card interaction.
+
+
+### *Unity Developer*, Marsupius VR (2018-10 — 2018-10)
+
+
+
+  - Debugged and completed VR project based on Vuforia and Unity3D.
+
+  - Developed Android version of the application.
+
+  - Improved Vuforia target detection.
 
 
 
@@ -144,27 +140,9 @@ Advanced Android Development
 
 
 
-## READING
-
-### [*Other Copenhagens*](http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209), Edmund Jorgensen
-
-### [*r/programming*](https://www.reddit.com/r/programming)
-
-### [*Hacker News*](https://news.ycombinator.com/)
 
 
 
-
-
-## REFERENCES
-
-### *John Doe*, Manager @ Somewhere Inc. (professional)
-Contact information available on request.
-: john.doe@somewhere.com
-
-### *Jane Q. Fullstacker*, Coworker (technical)
-Contact information available on request.
-: jane.fullstacker@somewhere.com
 
 
 ## INTERESTS

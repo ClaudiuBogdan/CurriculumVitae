@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Developer",
-    "brief": "Problem solver, fast learner, passionate about my work. I'm an Android Developer certified by Google, with experience in developing, debugging and refactoring mobile applications. I have experience implementing MVC and MVVM design patterns and I have worked with Android Architecture Components (DataBinding, LiveData, ViewModel) in combination with Dagger to create flexible apps. Furthermore, I have developed games in Unity and Phaser3 for mobile and web platform. I'm constantly working to improve my skills and learning how to create better software.",
+    "brief": "I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects an I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.",
     "image": "professional_portrait-min-patrat.jpg"
   },
   "contact": {
@@ -64,9 +64,8 @@
       "category": "Private",
       "url": "https://oskar.nextadv.m75.ro",
       "media": [],
-      "role": "Lead Developer",
-      "summary": "Conceived, designed, implemented, and created 3D Asteroids space shooter with Unreal Engine IV and C++.",
-      "description": "A 3D Asteroids clone with Unreal 4 and cross-platform C++.",
+      "role": "Lead Web Developer",
+      "summary": "",
       "highlights": [
         "Integrated Web App with Spotify API",
         "Used audio analysis data to create real time animation.",
@@ -86,12 +85,39 @@
       ]
     },
     {
+      "title": "Acces Taxi Driver/Passenger",
+      "category": "private",
+      "url": "https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver",
+      "repo": "",
+      "start": "2018-07-13",
+      "end": "2018-10-15",
+      "media": [],
+      "role": "Android Developer",
+      "summary": "Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.",
+      "description": "",
+      "highlights": [
+        "Reduced the number of bugs by 90%",
+        "Refactored application architecture to implement MVVM with Android Architecture",
+        "Improve overall performance by more than 50%",
+        "Implemented pixel-perfect design.",
+        "Implemented Dagger2 and RxJava."
+      ],
+      "keywords": [
+        "AndroidSDK",
+        "GoogleMaps",
+        "Notifications",
+        "Android Architecture"
+      ]
+    },
+    {
       "title": "MTS Website",
       "category": "private",
       "url": "https://development.melon.m75.ro/mts_webpage/index.html",
       "repo": "",
       "media": ["professional_portrait-min-patrat.jpg"],
-      "role": "MTS",
+      "start": "2018-12",
+      "end": "2019-01",
+      "role": "Lead Web Developer",
       "summary": "",
       "description": "",
       "highlights": [
@@ -104,10 +130,11 @@
     {
       "title": "Blood Cancer Campaign",
       "category": "private",
-      "url": "http://asteroids-demo.org",
-      "repo": "https://asteroids-repo.com",
+      "url": "",
+      "start": "2018-12",
+      "end": "2018-12",
       "media": [],
-      "role": "MTS",
+      "role": "Lead Unity Developer",
       "summary": "",
       "description": "",
       "highlights": [
@@ -115,15 +142,22 @@
         "Integrated animation with real time video.",
         "Created configuration mode to adjust animation parameters to fit input camera video."
       ],
-      "keywords": ["Unity3D", "Shuriken particles system", "3D", "WebcamTexture"]
+      "keywords": [
+        "Unity3D",
+        "Shuriken particles system",
+        "3D",
+        "WebcamTexture"
+      ]
     },
     {
       "title": "Jurassic Box",
       "category": "private",
       "url": "https://youtu.be/jzRzCRlRxPc",
+      "start": "2018-11",
+      "end": "2018-12",
       "repo": "",
       "media": [],
-      "role": "MTS",
+      "role": "Electrical Engineer",
       "summary": "",
       "description": "",
       "highlights": [
@@ -140,10 +174,12 @@
       "url": "https://bucurie.coresibrasov.ro/joaca",
       "repo": "",
       "media": ["https://www.youtube.com/watch?v=EN_GNhAtGVQ"],
-      "role": "MTS",
+      "start": "2018-10",
+      "end": "2018-11",
+      "role": "Lead Game Developer",
       "summary": "",
       "highlights": [
-        "Created an clothes customization game with Phaser.",
+        "Created a clothes customization game with Phaser.",
         "Created items menu to select different items to place over the base clothes.",
         "Created tool menu to manipulate clothes items (size, rotation, flip, delete).",
         "Implemented undo/redo system."
@@ -153,10 +189,11 @@
     {
       "title": "Solitaire2048",
       "category": "private",
-      "url": "http://asteroids-demo.org",
-      "repo": "https://asteroids-repo.com",
+      "url": "",
+      "start": "2018-10",
+      "end": "2018-11",
       "media": [],
-      "role": "MTS",
+      "role": "Game Developer",
       "summary": "",
       "highlights": [
         "Developed solitaire-like game with combo effect.",
@@ -168,10 +205,11 @@
     {
       "title": "Marsupius VR",
       "category": "FOSS",
-      "url": "http://asteroids-demo.org",
-      "repo": "https://asteroids-repo.com",
+      "url": "",
+      "start": "2018-10",
+      "end": "2018-10",
       "media": [],
-      "role": "MTS",
+      "role": "Unity Developer",
       "summary": "",
       "highlights": [
         "Debugged and completed VR project based on Vuforia and Unity3D.",
@@ -179,32 +217,6 @@
         "Improved Vuforia target detection."
       ],
       "keywords": ["Unity3D", "Vuforia", "UnityAnimation", "Video"]
-    },
-
-    {
-      "title": "Acces Taxi Driver/Passenger",
-      "category": "private",
-      "url": "https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver",
-      "repo": "",
-      "start": "2018-07-13",
-      "end": "2018-07-13",
-      "media": [],
-      "role": "MTS",
-      "summary": "Developed two enterprise applications based on Google Maps and Google Cloud Messages to connect drivers with passengers.",
-      "description": "",
-      "highlights": [
-        "Reduced the number of bugs by 90%",
-        "Refactored application architecture to implement MVVM with Android Architecture",
-        "Improve overall performance by more than 50%",
-        "Implemented pixel-perfect design.",
-        "Implemented Dagger2 and RxJava."
-      ],
-      "keywords": [
-        "AndroidSDK",
-        "GoogleMaps",
-        "Notifications",
-        "Android Architecture"
-      ]
     }
   ],
   "education": {
@@ -241,7 +253,7 @@
         "end": "2018-04",
         "summary": "Advanced Android Development",
         "curriculum": ["Automated Testing", "Android", "Java"],
-        "courses": [
+        "highlights": [
           "Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools.",
           "Implementation of the visual and navigational components of an application's design.",
           "Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.",
@@ -277,78 +289,18 @@
     ],
     "list": []
   },
-  "reading": [
-    {
-      "title": "Other Copenhagens",
-      "flavor": "book",
-      "url": "http://www.amazon.com/Other-Copenhagens-And-Stories/dp/0984749209",
-      "author": "Edmund Jorgensen"
-    },
-    {
-      "title": "r/programming",
-      "flavor": "website",
-      "url": "https://www.reddit.com/r/programming"
-    },
-    {
-      "title": "Hacker News",
-      "flavor": "website",
-      "url": "https://news.ycombinator.com/"
-    }
-  ],
-  "references": [
-    {
-      "name": "John Doe",
-      "category": "professional",
-      "role": "Manager @ Somewhere Inc.",
-      "private": true,
-      "summary": "Contact information available on request.",
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "john.doe@somewhere.com"
-        }
-      ]
-    },
-    {
-      "name": "Jane Q. Fullstacker",
-      "category": "technical",
-      "summary": "Contact information available on request.",
-      "role": "Coworker",
-      "private": true,
-      "contact": [
-        {
-          "flavor": "email",
-          "value": "jane.fullstacker@somewhere.com"
-        }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "John Doe",
-      "flavor": "professional",
-      "quote": "Such-and-such is awesome! I'd hire him/her again in a second!",
-      "private": false
-    },
-    {
-      "name": "Somebody Important",
-      "flavor": "technical",
-      "quote": "Hands-down *the best developer/manager/spelunker/coworker/etc* I've ever worked with. Emphasis *mine!*",
-      "private": false
-    }
-  ],
   "languages": [
     {
       "language": "English",
-      "level": "native"
-    },
-    {
-      "language": "Spanish",
       "level": "advanced"
     },
     {
-      "language": "C++",
-      "level": "intermediate"
+      "language": "Spanish",
+      "level": "native"
+    },
+    {
+      "language": "Romanian",
+      "level": "native"
     }
   ],
   "interests": [

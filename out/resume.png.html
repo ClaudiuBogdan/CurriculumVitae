@@ -1,1356 +1,381 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"
-        />
         <title>Claudiu Constantin Bogdan</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <style>
-            /********************************************
-            * 	reset from
-            * 	http://meyerweb.com/eric/tools/css/reset/
-            *******************************************/
-            
-            html,
-            body,
-            div,
-            span,
-            applet,
-            object,
-            iframe,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p,
-            blockquote,
-            pre,
-            a,
-            abbr,
-            acronym,
-            address,
-            big,
-            cite,
-            code,
-            del,
-            dfn,
-            em,
-            img,
-            ins,
-            kbd,
-            q,
-            s,
-            samp,
-            small,
-            strike,
-            strong,
-            sub,
-            sup,
-            tt,
-            var,
-            b,
-            u,
-            i,
-            center,
-            dl,
-            dt,
-            dd,
-            ol,
-            ul,
-            li,
-            fieldset,
-            form,
-            label,
-            legend,
-            table,
-            caption,
-            tbody,
-            tfoot,
-            thead,
-            tr,
-            th,
-            td,
-            article,
-            aside,
-            canvas,
-            details,
-            embed,
-            figure,
-            figcaption,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            output,
-            ruby,
-            section,
-            summary,
-            time,
-            mark,
-            audio,
-            video {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font-size: 100%;
-                vertical-align: baseline;
-            }
-            
-            article,
-            aside,
-            details,
-            figcaption,
-            figure,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            section {
-                display: block;
-            }
-            
-            body {
-                line-height: 1;
-            }
-            
-            ol,
-            ul {
-                list-style: none;
-            }
-            
-            blockquote,
-            q {
-                quotes: none;
-            }
-            
-            blockquote:before,
-            blockquote:after,
-            q:before,
-            q:after {
-                content: none;
-            }
-            
-            table {
-                border-collapse: collapse;
-                border-spacing: 0;
-            }
-            
-            
-            /****************
-            *	COMMONS
-            ****************/
-            
-            body,
-            html {
-                font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-                font-size: 13px;
-                color: #40484f;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 1.46153846;
-                text-align: left;
-                -webkit-text-size-adjust: 100%;
-            }
-            
-            p {
-                display: block;
-                margin-bottom: 1.3em;
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+              font-size: 12px;
+              margin: 0; padding: 0;
+              display: block;
             }
             
             a {
-                color: #0095ff;
-                text-decoration: none;
+              color: #0064BD;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
             }
             
             a:hover {
-                color: #0c65a5;
-                text-decoration: underline;
-            }
-            
-            ul {
-                margin-top: 1rem;
-            }
-            
-            li {
-                list-style-type: square;
-                list-style-position: outside;
-                margin-left: 1.3em;
-            }
-            
-            .highlights>li>p {
-                margin-bottom: 0.5em;
-            }
-            
-            h1 {
-                font-size: 2rem;
+              text-decoration: underline;
             }
             
             h2 {
-                font-size: 1.67rem;
+              text-transform: uppercase;
             }
             
             h3 {
-                font-size: 1.27rem;
+              font-size: 1em;
             }
             
-            em {
-                color: #757575;
+            hr {
+              border: none;
+              border-top: 1px solid #B3B3B3;
             }
             
-            blockquote {
-                margin-bottom: 1em;
+            main {
+              padding: 15px;
+              max-width: 700px;
+              margin: 0 auto;
             }
             
-            strong {
-                font-weight: 700;
+            section {
+              margin-top: 1em;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p, li {
+              text-align: justify;
+              clear: both;
+            }
+            
+            .tenure {
+              float: right;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 0;
+              position: relative;
             }
             
             
-            /* main container */
-            
-            #resume {
-                padding: 1rem;
-                margin-top: 2rem;
+            h3 {
+              display: inline-block;
+              line-height: 1;
             }
-            
-            
-            /* every section wrapper */
-            
-            .section {
-                margin-bottom: 1rem;
-            }
-            
-            section .location {
-                margin-right: .5em;
-                color: #606d76;
-                font-weight: 700;
-            }
-            
             #contact {
-                margin-top: .5rem;
+              float: right;
+              position: absolute;
+              right: 0;
+              bottom: 0;
             }
             
-            #profiles .item {
-                padding: 0;
+            #contact > div {
+              display: inline-block;
+              margin-left: 5px;
             }
             
-            #header>#profiles,
-            #header>#contact,
-            #skills,
-            #languages,
-            #interests {
-                display: -webkit-box;
-                display: -moz-box;
-                display: -ms-flexbox;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-flex-flow: row wrap;
-                flex-flow: row wrap;
-                -webkit-justify-content: flex-start;
-                justify-content: flex-start;
+            span.fa {
+              text-align: left;
+              margin-right: 3px;
+              float: left;
             }
             
-            #header>div {
-                line-height: 1.5;
+            section > div {
+              margin-bottom: 1em;
+              clear: both;
             }
             
-            #header>div>div {
-                margin-right: 1.2em;
-            }
-            
-            #header h1.name {
-                font-size: 2.8rem;
-                font-weight: 100;
-                line-height: 100%;
-            }
-            
-            #header h2.label {
-                color: #202931;
-                font-size: 1.47rem;
-                font-weight: 300;
-            }
-            
-            #header .picture {
-                width: 11em;
-                float: right;
-                border-radius: 4px;
-            }
-            
-            .main-summary {
-                background: #f1f8ff;
-                padding: 1.2em 1em;
-                margin-top: 1rem;
-            }
-            
-            .main-summary p {
-                margin: .15em 0 0;
-            }
-            
-            h2.section-title {
-                display: inline-block;
-                background: #fff;
-                padding: 0 1em 0.3em 0;
-                color: #ff6d1f;
-                text-transform: uppercase;
-                font-weight: 600;
-                border: none;
-                font-size: .9rem;
-            }
-            
-            .section>header {
-                position: relative;
-            }
-            
-            .fa {
-                margin-right: 0.25em;
-            }
-            
-            .section>header::after {
-                position: absolute;
-                left: 0;
-                top: .7em;
-                height: 1px;
-                background: #ccc;
-                content: "";
-                width: 100%;
-                z-index: -100;
-                display: block;
-            }
-            
-            .section.main-summary>section {
-                margin: 0;
-            }
-            
-            .section>section>header {
-                font-size: 1.38rem;
-                position: relative;
-                margin-top: .7em;
-            }
-            
-            .section>section>header:first-of-type {
-                margin: 0;
-            }
-            
-            .section>section>header .space-left {
-                position: absolute;
-                left: -1.56rem;
-                top: 5px;
-                color: #aaa;
-                line-height: 1;
-                opacity: 0;
-            }
-            
-            .position,
-            .company,
-            .organization,
-            .institution,
-            .date,
-            .area,
-            .studyType,
-            .title,
-            .awarder {
-                display: inline;
-            }
-            
-            .position,
-            .studyType,
-            .area,
-            .title,
-            .language,
-            .name {
-                font-weight: 600;
-            }
-            
-            .company::before,
-            .institution::before,
-            .organization::before,
-            .awarder::before {
-                content: "at "
-            }
-            
-            .company,
-            .institution,
-            .organization,
-            .awarder {
-                color: #606d76;
-                font-weight: 400;
-            }
-            
-            .section header .date {
-                font-size: 1rem;
-                display: inline-table;
-                padding: .1em 0;
-                font-weight: 600;
-            }
-            
-            ul.keywords,
-            ul.courses {
-                margin-top: .5em;
-            }
-            
-            ul.keywords li,
-            ul.courses li {
-                display: inline-block;
-                margin: 2px 2px 2px 0;
-                padding: 4px 5px 5px;
-                font-size: .9rem;
-                line-height: 1;
-                text-transform: lowercase;
-                color: #3e6d8e;
-                background-color: #dfeaf1;
-                border: 0 solid #dfeaf1;
-                white-space: nowrap;
-            }
-            
-            ul.keywords li:hover,
-            ul.courses li:hover {
-                background: #dfeaf0;
-            }
-            
-            .item {
-                padding: .5em 0;
-            }
-            
-            .gpa {
-                padding-bottom: .5em;
-            }
-            
-            .fa.social {
-                font-size: 1.1em;
-            }
-            
-            
-            /* Social Media Brand Colors */
-            
-            .google-plus {
-                color: #dd4b39;
-            }
-            
-            .tumblr {
-                color: #32506d;
-            }
-            
-            .foursquare {
-                color: #0072b1;
-            }
-            
-            .facebook {
-                color: #3b5998;
-            }
-            
-            .linkedin {
-                color: #007bb6;
-            }
-            
-            .pinterest {
-                color: #cb2027;
-            }
-            
-            .dribbble {
-                color: #ea4c89;
-            }
-            
-            .instagram {
-                color: #517fa4;
-            }
-            
-            .twitter {
-                color: #00aced;
-            }
-            
-            .soundcloud {
-                color: #ff3a00;
-            }
-            
-            .wordpress {
-                color: #21759b;
-            }
-            
-            .youtube {
-                color: #bb0000;
-            }
-            
-            .github {
-                color: #171515;
-            }
-            
-            .stack-overflow {
-                color: #828386;
-                position: relative;
-            }
-            
-            .flickr {
-                color: #ff0084;
-            }
-            
-            .stack-overflow::after {
-                position: absolute;
-                left: 0;
-                content: '\f16c';
-                color: #f68a1f;
-                overflow: hidden;
-                height: 100%;
-            }
-            
-            .telegram {
-                color: #2291c3;
-            }
-            
-            #languages .item,
-            #skills .item,
-            #interests .item {
-                width: 15em;
-                padding: 0 .5em .5em 0;
-                border-bottom: none;
-            }
-            
-            #skills .item {
-                width: 16em;
-            }
-            
-            #skills .item .keywords {
-                width: 15em;
-            }
-            
-            
-            /* Skill chart */
-            
-            .level {
-                margin-bottom: .5em;
-            }
-            
-            .level .bar {
-                border: 1px solid #ddd;
-                display: block;
-                width: 10em;
-                height: 5px;
-                position: relative;
-            }
-            
-            .level .bar::after {
-                position: absolute;
-                content: " ";
-                top: 0;
-                left: 0;
-                background: black;
-                height: 5px;
-            }
-            
-            .level.beginner .bar::after {
-                background: #EB5F51;
-                width: 2.5em;
-            }
-            
-            .level.intermediate .bar::after {
-                background: #ffdf1f;
-                width: 5em;
-            }
-            
-            .level.advanced .bar::after,
-            .level.fluent .bar::after {
-                background: #5CB85C;
-                width: 7.5em;
-            }
-            
-            .level.master .bar::after,
-            .level.native.speaker .bar::after {
-                background: #59C596;
-                width: 10em;
-            }
-            
-            #references .item {
-                padding-left: .5em;
-                border-left: 5px solid #ff6d1f;
-            }
-            
-            .toggle-item {
-              visibility: hidden;
-            }
-            
-            /******************
-            *	HELPER CLASSES
-            ******************/
-            
-            .clear::after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-            
-            .display {
-                display: block;
-                opacity: 1 !important;
-            }
-            
-            .margin1 {
-                margin-bottom: .5rem;
-            }
-            
-            
-            /****************
-            *		TABLET
-            ****************/
-            
-            @media screen and (min-width: 602px) {
-                #resume {
-                    width: 80%;
-                    margin: 0 auto;
-                }
-            }
-            
-            
-            /****************
-            *		LAPTOP
-            ****************/
-            
-            @media screen and (min-width: 1025px) {
-                li {
-                    margin-left: 1.5em;
-                }
-                #resume {
-                    width: 820px;
-                    margin: 2rem auto;      
-                }
-                .section>section>header .space-left {
-                    opacity: 1;
-                    cursor: pointer;
-                }
-                .section>section {
-                    margin-left: 1.67rem;
-                }
-                .toggle-item {
-                    transform: translate(-9999px);
-                }
-                .toggle-item+label {
-                    display: block;
-                    margin-top: -16px;
-                }
-                .toggle-item:checked+label:after {
-                    content: '\f0d7';
-                }
-                .toggle-item+label:after {
-                    float: left;
-                    cursor: pointer;
-                    margin-left: -20px;
-                    color: #aaa;
-                    font-size: 16px;
-                    content: '\f0da';
-                    font-family: Fontawesome;
-                }
-                .toggle-item~.item {
-                    height: 0;
-                    opacity: 0;
-                }
-                .toggle-item:checked~.item {
-                    height: auto;
-                    opacity: 1;
-                    transition: all .5s linear;
-                }
-                .company::before,
-                .institution::before,
-                .organization::before,
-                .awarder::before {
-                    content: "| ";
-                }
-                .header-left {
-                    float: left;
-                    width: 70%;
-                    word-break: normal;
-                }
-                .section header .date {
-                    float: right;
-                    padding: .2em;
-                }
-                .display {
-                    display: none;
-                }
-                .display:not(.none) {
-                    display: block;
-                }
-            }
-            
-            @media print {
-                #resume {
-                    margin: 0;
-                    padding: 0;
-                    -ms-word-wrap: break-word;
-                    word-wrap: break-word;
-                    line-height: 1.3;
-                    /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
-                }
-                @page {
-                    margin: 1cm 1.4cm;
-                }
-                .item-count {
-                    display: none;
-                }
-                .company::before,
-                .institution::before,
-                .organization::before,
-                .awarder::before {
-                    content: "at ";
-                }
-                .main-summary {
-                    padding: 2rem 0;
-                }
-                .section {
-                    margin: .8rem 0;
-                    padding: 0;
-                }
-                .section header {
-                    padding-bottom: .15rem;
-                }
-                .section .location {
-                    padding-bottom: .15rem;
-                }
-                .stack-overflow::after {
-                    content: "";
-                }
-                .fa.social {
-                    color: #828386;
-                }
-                ul {
-                    margin-top: .4em;
-                }
-                ul,
-                li {
-                    padding: 0;
-                }
-                ul.keywords li,
-                ul.courses li {
-                    margin: 0;
-                    padding: 0;
-                    font-size: .8rem;
-                    text-transform: lowercase;
-                }
-                ul.keywords li::after,
-                ul.courses li::after {
-                    padding: 0 0 0 .1rem;
-                    content: " |";
-                }
-                ul.keywords::before,
-                ul.courses::before {
-                    font-size: .8rem;
-                    font-weight: 600;
-                }
-                ul.keywords::before {
-                    content: "Skills acquired: ";
-                }
-                #skills .keywords::before {
-                    content: '';
-                }
-                .section p {
-                    margin: 0;
-                    padding: 0;
-                }
-                ul.courses::before {
-                    content: "Major courses: ";
-                }
-                ul.keywords li:last-of-type::after,
-                ul.courses li:last-of-type::after {
-                    content: "";
-                }
-                .level em {
-                    font-style: normal;
-                    padding: .1em 0;
-                }
-                .level .bar {
-                    display: none;
-                }
-                #profiles .item {
-                    padding: 0;
-                }
-                .item.display {
-                    display: block;
-                    opacity: 1 !important;
-                }
+            span.keywords {
+              font-size: 10px;
+              color: gray;
+              text-align: right;
             }
         </style>
     </head>
     
     <body>
-        <div id="resume">
-            <header id="header" class="clear">
-                <img class="picture" src="professional_portrait-min-patrat.jpg" alt="Claudiu Constantin Bogdan"
-                />
-                <div class="middle">
-                    	<h1 class="name">Claudiu Constantin Bogdan</h1>
+        <main>
+            <header>
+                 <h1>Claudiu Constantin Bogdan</h1>
 
-                    	<h2 class="label">Software Developer</h2>
-
-                </div>	<span class="location">
-    			<span class="city">Bucharest,</span> 	<span class="region">Bucharest</span> 
-                <span
-                class="countryCode">Romania</span>
-                    </span>
-                    <div id="contact">
-                        <div class="website">	<span class="fa fa-external-link"></span>
-	<a target="_blank" target="_blank"
-                            href="https://claudiuconstantinbogdan.me">https://claudiuconstantinbogdan.me</a>
-
-                        </div>
-                        <div class="email">	<span class="fa fa-envelope-o"></span>
-	<a href="mailto:bogdan.claudiu93@gmail.com">bogdan.claudiu93@gmail.com</a>
-
-                        </div>
-                        <div class="phone">	<span class="fa fa-mobile"></span>
-	<a href="tel:+40-738-334-197">+40-738-334-197</a>
-
-                        </div>
+                <div id="contact">
+                    <div class="email"><a href="mailto:bogdan.claudiu93@gmail.com">bogdan.claudiu93@gmail.com</a>
                     </div>
-                    <div id="profiles">
-                        <div class="item">
-                            <div class="username">	<span class="fa fa-github github social"></span>
-	<span class="url">
-    						<a target="_blank" href="https://github.com/ClaudiuBogdan">ClaudiuBogdan</a>
-    					</span> 
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="username">	<span class="fa fa-linkedin linkedin social"></span>
-	<span class="url">
-    						<a target="_blank" href="https://www.linkedin.com/in/claudiuconstantinbogdan">Claudiu Constantin Bogdan</a>
-    					</span> 
-                            </div>
-                        </div>
+                    <div class="phone">+40-738-334-197</div>
+                    <div class="website"><a href="https://claudiuconstantinbogdan.me">claudiuconstantinbogdan.me</a>
                     </div>
+                </div>
             </header>
-            <section class="section main-summary">
-                <section>
-                    <div>
-                        <p>Problem solver, fast learner, passionate about my work. I&#39;m an Android
-                            Developer certified by Google, with experience in developing, debugging
-                            and refactoring mobile applications. I have experience implementing MVC
-                            and MVVM design patterns and I have worked with Android Architecture Components
-                            (DataBinding, LiveData, ViewModel) in combination with Dagger to create
-                            flexible apps. Furthermore, I have developed games in Unity and Phaser3
-                            for mobile and web platform. I&#39;m constantly working to improve my skills
-                            and learning how to create better software.</p>
-                    </div>
-                </section>
-            </section>
-            <section class="section margin1">
-                <header>
-                    	<h2 class='section-title'>Skills</h2>
+            <hr>
+            <section id="summary">I&#39;ve developed, debugged and deployed mobile applications, VR applications,
+                web games and Single Page Web Applications. I have been involved in all
+                the software development lifecycle, from planning up to deploying and maintaining.
+                I&#39;ve been a lead developer in most of the projects an I&#39;ve also
+                conducted the technical interview for software developers. I am a problem
+                solver, fast learner and passionate about my work. I&#39;m constantly working
+                to improve my skills and learning how to create better software.</section>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
 
                 </header>
-                <section id="skills">
-                    <div class="item">
-                        	<h3 class="name">
-    				Android Development
-    			</h3>
-
-                        <div class="level advanced">	<em>advanced</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>Java</li>
-                            <li>Android SDK</li>
-                            <li>Android Architecture</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        	<h3 class="name">
-    				Front-End Web Development
-    			</h3>
-
-                        <div class="level intermediate">	<em>intermediate</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>Vuejs</li>
-                            <li>JavaScript</li>
-                            <li>HTML 5</li>
-                            <li>CSS/Sass</li>
-                            <li>Bootsrap4</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        	<h3 class="name">
-    				Back-End Web Development
-    			</h3>
-
-                        <div class="level intermediate">	<em>intermediate</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>Nodejs</li>
-                            <li>JavaScript</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        	<h3 class="name">
-    				Unity3D
-    			</h3>
-
-                        <div class="level intermediate">	<em>intermediate</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>C#</li>
-                            <li>.Net</li>
-                            <li>Particle System</li>
-                        </ul>
-                    </div>
-                </section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 25%;">Android Development</td>
+                            <td class="keywords">Java Android SDK Android Architecture</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Front-End Web Development</td>
+                            <td class="keywords">Vuejs JavaScript HTML 5 CSS/Sass Bootsrap4</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Back-End Web Development</td>
+                            <td class="keywords">Nodejs JavaScript Express MongoDB</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Unity3D</td>
+                            <td class="keywords">C# .Net Particle System</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
-            <section class="section">
-                <header>
-                     <h2 class='section-title'>Work Experience <span class="item-count">(1)</span></h2>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-building"></span> 
+                     <h2>employment</h2>
 
                 </header>
-                <section id="work">
-                    <section class="work-item">
-                        <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked"
-                        />
-                        <label for="work-item-0"></label>
-                        <header>
-                            <div class="position">Software Developer</div>
-                            <div class="company">Mind Treat Studios</div>
-                            <div class="date"> <span class="startDate">July 2018</span> 	<span class="endDate">- Current</span>
+                <div>
+                     <h3><em>Software Developer</em>,
+    <a href="https://www.mindtreatstudios.com">Mind Treat Studios</a>
+    </h3>
+ <span class="tenure">2018-07 — Present</span>
 
-                            </div>
-                        </header>	<span class="website">
-        		<a target="_blank" href="https://www.mindtreatstudios.com">https://www.mindtreatstudios.com</a>
-        	</span> 
-                        <div class="item" id="work-item">
-                            <div class="summary">
-                                <p>
-                                    <p>As a software developer, a took part in all the software development processes.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
+                    <p>
+                        <p>As a software developer, a took part in all the software development processes.</p>
+                    </p> <span class="keywords">Arduino Web WebGL Unity Android </span>
+
+                </div>
             </section>
-            <section class="section">
-                <header>
-                     <h2 class='section-title'>Projects <span class="item-count">(9)</span></h2>
+            <hr>
+            <section id="projects">
+                <header> <span class="fa fa-star"></span> 
+                     <h2>projects</h2>
 
                 </header>
-                <section id="projects">
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Sound of Colors</div>
-                            <div class="date"> <span class="startDate">January 2019</span>
- <span class="endDate">- February 2019</span>
+                <div>
+                     <h3><em>Lead Web Developer</em>,
+    <a href="https://oskar.nextadv.m75.ro">Sound of Colors</a>
+    </h3>
+ <span class="tenure">2019-01 — 2019-02</span>
 
-                            </div>
-                        </header> <span class="website">
-            <a target="_blank" href="https://oskar.nextadv.m75.ro">https://oskar.nextadv.m75.ro</a>
-          </span>
+                    <p></p>
+                    <ul>
+                        <li>Integrated Web App with Spotify API</li>
+                        <li>Used audio analysis data to create real time animation.</li>
+                        <li>Deployed Single Page Application with Node.js, MongoDB and Docker</li>
+                        <li>Implemented responsive web design.</li>
+                        <li>Created share and print functionality.</li>
+                    </ul> <span class="keywords">SpotifyAPI Docker VueJs NodeJs Express MongoDB AnimeJs Bootsrap4 </span>
 
-                        <ul class="keywords">
-                            <li>SpotifyAPI</li>
-                            <li>Docker</li>
-                            <li>VueJs</li>
-                            <li>NodeJs</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                            <li>AnimeJs</li>
-                            <li>Bootsrap4</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Integrated Web App with Spotify API</p>
-                                </li>
-                                <li>
-                                    <p>Used audio analysis data to create real time animation.</p>
-                                </li>
-                                <li>
-                                    <p>Deployed Single Page Application with Node.js, MongoDB and Docker</p>
-                                </li>
-                                <li>
-                                    <p>Implemented responsive web design.</p>
-                                </li>
-                                <li>
-                                    <p>Created share and print functionality.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">MTS Website</div>
-                        </header> <span class="website">
-            <a target="_blank" href="https://development.melon.m75.ro/mts_webpage/index.html">https://development.melon.m75.ro/mts_webpage/index.html</a>
-          </span>
+                </div>
+                <div>
+                     <h3><em>Android Developer</em>,
+    <a href="https://play.google.com/store/apps/details?id=com.transorient.accestaxi.driver">Acces Taxi Driver/Passenger</a>
+    </h3>
+ <span class="tenure">2018-07 — 2018-10</span>
 
-                        <ul class="keywords">
-                            <li>Phaser3</li>
-                            <li>HTML 5</li>
-                            <li>CSS</li>
-                            <li>jQuery</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Created modular web application for MTS studio.</p>
-                                </li>
-                                <li>
-                                    <p>Implemented swipe/scroll gesture in Phaser3</p>
-                                </li>
-                                <li>
-                                    <p>Create import module for adding new page levels.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Blood Cancer Campaign</div>
-                        </header> <span class="website">
-            <a target="_blank" href="http://asteroids-demo.org">http://asteroids-demo.org</a>
-          </span>
+                    <p>
+                        <p>Developed two enterprise applications based on Google Maps and Google
+                            Cloud Messages to connect drivers with passengers.</p>
+                    </p>
+                    <ul>
+                        <li>Reduced the number of bugs by 90%</li>
+                        <li>Refactored application architecture to implement MVVM with Android Architecture</li>
+                        <li>Improve overall performance by more than 50%</li>
+                        <li>Implemented pixel-perfect design.</li>
+                        <li>Implemented Dagger2 and RxJava.</li>
+                    </ul> <span class="keywords">AndroidSDK GoogleMaps Notifications Android Architecture </span>
 
-                        <ul class="keywords">
-                            <li>Unity3D</li>
-                            <li>Shuriken particles system</li>
-                            <li>3D</li>
-                            <li>WebcamTexture</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Created blood cell animation with Unity particles system.</p>
-                                </li>
-                                <li>
-                                    <p>Integrated animation with real time video.</p>
-                                </li>
-                                <li>
-                                    <p>Created configuration mode to adjust animation parameters to fit input
-                                        camera video.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Jurassic Box</div>
-                        </header> <span class="website">
-            <a target="_blank" href="https://youtu.be/jzRzCRlRxPc">https://youtu.be/jzRzCRlRxPc</a>
-          </span>
+                </div>
+                <div>
+                     <h3><em>Lead Web Developer</em>,
+    <a href="https://development.melon.m75.ro/mts_webpage/index.html">MTS Website</a>
+    </h3>
+ <span class="tenure">2018-12 — 2019-01</span>
 
-                        <ul class="keywords">
-                            <li>Arduino</li>
-                            <li>Raspberry Pi</li>
-                            <li>Electronic sensors</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Build electronic system for cinema 4D project.</p>
-                                </li>
-                                <li>
-                                    <p>Created physical like button with Raspberry Pi and LCD screen.</p>
-                                </li>
-                                <li>
-                                    <p>Created movement detection system that triggers the dinosaur video.</p>
-                                </li>
-                                <li>
-                                    <p>Created control system for different devices (smoke machine, motors, solenoid
-                                        valves) wit Arduino</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Ia Digitala</div>
-                        </header> <span class="website">
-            <a target="_blank" href="https://bucurie.coresibrasov.ro/joaca">https://bucurie.coresibrasov.ro/joaca</a>
-          </span>
+                    <p></p>
+                    <ul>
+                        <li>Created modular web application for MTS studio.</li>
+                        <li>Implemented swipe/scroll gesture in Phaser3</li>
+                        <li>Create import module for adding new page levels.</li>
+                    </ul> <span class="keywords">Phaser3 HTML 5 CSS jQuery </span>
 
-                        <ul class="keywords">
-                            <li>Phaser3D</li>
-                            <li>FacebookSDK</li>
-                            <li>ImageMask</li>
-                            <li>MVC</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Created an clothes customization game with Phaser.</p>
-                                </li>
-                                <li>
-                                    <p>Created items menu to select different items to place over the base clothes.</p>
-                                </li>
-                                <li>
-                                    <p>Created tool menu to manipulate clothes items (size, rotation, flip, delete).</p>
-                                </li>
-                                <li>
-                                    <p>Implemented undo/redo system.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Romania Centenar</div>
-                        </header> <span class="website">
-            <a target="_blank" href="http://asteroids-demo.org">http://asteroids-demo.org</a>
-          </span>
+                </div>
+                <div>
+                     <h3><em>Lead Unity Developer</em>,
+    Blood Cancer Campaign
+    </h3>
+ <span class="tenure">2018-12 — 2018-12</span>
 
-                        <ul class="keywords">
-                            <li>C++</li>
-                            <li>Unreal Engine</li>
-                            <li>3D</li>
-                            <li>DirectX</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Project Highlight #1</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #2</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #3</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Solitaire2048</div>
-                        </header> <span class="website">
-            <a target="_blank" href="http://asteroids-demo.org">http://asteroids-demo.org</a>
-          </span>
+                    <p></p>
+                    <ul>
+                        <li>Created blood cell animation with Unity particles system.</li>
+                        <li>Integrated animation with real time video.</li>
+                        <li>Created configuration mode to adjust animation parameters to fit input
+                            camera video.</li>
+                    </ul> <span class="keywords">Unity3D Shuriken particles system 3D WebcamTexture </span>
 
-                        <ul class="keywords">
-                            <li>C++</li>
-                            <li>Unreal Engine</li>
-                            <li>3D</li>
-                            <li>DirectX</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Project Highlight #1</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #2</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #3</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Marsupius VR</div>
-                        </header> <span class="website">
-            <a target="_blank" href="http://asteroids-demo.org">http://asteroids-demo.org</a>
-          </span>
+                </div>
+                <div>
+                     <h3><em>Electrical Engineer</em>,
+    <a href="https://youtu.be/jzRzCRlRxPc">Jurassic Box</a>
+    </h3>
+ <span class="tenure">2018-11 — 2018-12</span>
 
-                        <ul class="keywords">
-                            <li>C++</li>
-                            <li>Unreal Engine</li>
-                            <li>3D</li>
-                            <li>DirectX</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Project Highlight #1</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #2</p>
-                                </li>
-                                <li>
-                                    <p>Project Highlight #3</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                    <section class="project-item">
-                        <header>
-                            <div class="position">Acces Taxi Driver/Passenger</div>
-                            <div class="date"> <span class="startDate">July 2018</span>
- <span class="endDate">- July 2018</span>
+                    <p></p>
+                    <ul>
+                        <li>Build electronic system for cinema 4D project.</li>
+                        <li>Created physical like button with Raspberry Pi and LCD screen.</li>
+                        <li>Created movement detection system that triggers the dinosaur video.</li>
+                        <li>Created control system for different devices (smoke machine, motors, solenoid
+                            valves) wit Arduino</li>
+                    </ul> <span class="keywords">Arduino Raspberry Pi Electronic sensors </span>
 
-                            </div>
-                        </header> <span class="website">
-            <a target="_blank" href="https://play.google.com/store/apps/details?id&#x3D;com.transorient.accestaxi.driver">https://play.google.com/store/apps/details?id&#x3D;com.transorient.accestaxi.driver</a>
-          </span>
+                </div>
+                <div>
+                     <h3><em>Lead Game Developer</em>,
+    <a href="https://bucurie.coresibrasov.ro/joaca">Ia Digitala</a>
+    </h3>
+ <span class="tenure">2018-10 — 2018-11</span>
 
-                        <ul class="keywords">
-                            <li>AndroidSDK</li>
-                            <li>GoogleMaps</li>
-                            <li>Notifications</li>
-                            <li>Android Architecture</li>
-                        </ul>
-                        <div class="item">
-                            <ul class="highlights">
-                                <li>
-                                    <p>Reduced the number of bugs by 90%</p>
-                                </li>
-                                <li>
-                                    <p>Refactored application architecture to implement MVVM with Android Architecture</p>
-                                </li>
-                                <li>
-                                    <p>Improve overall performance by more than 50%</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                </section>
+                    <p></p>
+                    <ul>
+                        <li>Created an clothes customization game with Phaser.</li>
+                        <li>Created items menu to select different items to place over the base clothes.</li>
+                        <li>Created tool menu to manipulate clothes items (size, rotation, flip, delete).</li>
+                        <li>Implemented undo/redo system.</li>
+                    </ul> <span class="keywords">Phaser3D FacebookSDK ImageMask MVC </span>
+
+                </div>
+                <div>
+                     <h3><em>Game Developer</em>,
+    Solitaire2048
+    </h3>
+ <span class="tenure">2018-10 — 2018-11</span>
+
+                    <p></p>
+                    <ul>
+                        <li>Developed solitaire-like game with combo effect.</li>
+                        <li>Learned to use phaser3 in less than a week.</li>
+                        <li>Added sound effects to card interaction.</li>
+                    </ul> <span class="keywords">Phaser3 Web </span>
+
+                </div>
+                <div>
+                     <h3><em>Unity Developer</em>,
+    Marsupius VR
+    </h3>
+ <span class="tenure">2018-10 — 2018-10</span>
+
+                    <p></p>
+                    <ul>
+                        <li>Debugged and completed VR project based on Vuforia and Unity3D.</li>
+                        <li>Developed Android version of the application.</li>
+                        <li>Improved Vuforia target detection.</li>
+                    </ul> <span class="keywords">Unity3D Vuforia UnityAnimation Video </span>
+
+                </div>
             </section>
-            <section class="section">
-                <header>
-                     <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
+            <hr>
+            <section id="education">
+                <header> <span class="fa fa-mortar-board"></span> 
+                     <h2>education</h2>
 
                 </header>
-                <section id="education">
-                    <section class="education-item">
-                        <header>
-                            <div class="header-left">
-                                <div class="institution">Udacity</div>
-                            </div>
-                            <div class="date"> <span class="startDate">
-              2017
-              </span>
- <span class="endDate">
-              - 2018
-              </span>
+                <div>
+                     <h3><em>B.E.</em>, Universidad de Sevilla</h3>
+ <span class="tenure">2012-09 — Present</span>
 
-                            </div>
-                        </header>
-                        <ul class="courses">
-                            <li>Automated Testing</li>
-                            <li>Android</li>
-                            <li>Java</li>
-                        </ul>
-                        <div class="item"></div>
-                    </section>
-                    <section class="education-item">
-                        <header>
-                            <div class="header-left">
-                                <div class="institution">Universidad de Sevilla</div>
-                            </div>
-                            <div class="date"> <span class="startDate">
-              2012
-              </span>
- <span class="endDate">
-              - Current
-              </span>
+                    <p>Aerospace Engineering degree (not graduated)</p>
+                    <ul>
+                        <li>Applying analytical methods (engineering mathematics – algebra, differentiation,
+                            function, geometry, trigonometry, statistics)</li>
+                        <li>Critical Thinking - Using logic and reasoning to identify the strengths
+                            and weaknesses of alternative solutions, conclusions or approaches to problems.</li>
+                        <li>Understanding aeronautical sciences – stress, strain, static and dynamic
+                            systems, motion, force, electrical power and resistance, mass and weight</li>
+                        <li>Working efficiently and effectively in an engineering environment</li>
+                        <li>Using and communicating technical information</li>
+                    </ul> <span class="keywords">Data Algorithms Optimization C </span>
 
-                            </div>
-                        </header>
-                        <ul class="courses">
-                            <li>Data Algorithms</li>
-                            <li>Optimization</li>
-                            <li>C</li>
-                        </ul>
-                        <div class="item"></div>
-                    </section>
-                </section>
+                </div>
+                <div>
+                     <h3><em>Associate Android Developer</em>, Udacity</h3>
+ <span class="tenure">2017-01 — 2018-04</span>
+
+                    <p>Advanced Android Development</p>
+                    <ul>
+                        <li>Writing tests to verify that the application&#39;s logic and user interface
+                            are performing as expected, and executing those tests using the developer
+                            tools.</li>
+                        <li>Implementation of the visual and navigational components of an application&#39;s
+                            design.</li>
+                        <li>Understanding of Android&#39;s top-level application components (Activity,
+                            Service, Broadcast Receiver, Content Provider) and the lifecycle associated
+                            with each one.</li>
+                        <li>Determining appropriate use cases for local persisted data, and designing
+                            solutions to implement data storage using files, preferences, and databases.</li>
+                        <li>Extending applications to integrate with interfaces outside the core application
+                            experience through notifications and app widgets.</li>
+                    </ul> <span class="keywords">Automated Testing Android Java </span>
+
+                </div>
             </section>
-            <section class="section margin1">
-                <header>
-                     <h2 class='section-title'>Languages</h2>
+            <hr>
+            <section id="interests">
+                <header> <span class="fa fa-bicycle"></span> 
+                     <h2>interests</h2>
 
                 </header>
-                <section id="languages">
-                    <div class="display">
-                         <h3 class="language">
-            English
-          </h3>
+                <div>
+                     <h3><em>GitHub</em></h3>
+ <span class="tenure">Current</span>
 
-                        <div class="item"></div>
-                    </div>
-                    <div class="display">
-                         <h3 class="language">
-            Spanish
-          </h3>
+                    <p>Regular GitHub user and tinkerer.</p>
+                </div>
+                <div>
+                     <h3><em>chess</em></h3>
+ <span class="tenure">Current</span>
 
-                        <div class="item"></div>
-                    </div>
-                    <div class="display">
-                         <h3 class="language">
-            C++
-          </h3>
-
-                        <div class="item"></div>
-                    </div>
-                </section>
+                    <p>Avid chess player.</p>
+                </div>
             </section>
-            <section class="section margin1">
-                <header>
-                     <h2 class='section-title' class='section-title'>Interests</h2>
-
-                </header>
-                <section id="interests">
-                    <div class="item">
-                         <h3 class="name">
-            GitHub
-          </h3>
-
-                        <ul class="keywords">
-                            <li>GitHub</li>
-                            <li>git</li>
-                            <li>GitHub Desktop (OS X)</li>
-                            <li>LFS</li>
-                            <li>GitHub API</li>
-                        </ul>
-                        <div class="summary">
-                            <p>
-                                <p>Regular GitHub user and tinkerer.</p>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                         <h3 class="name">
-            chess
-          </h3>
-
-                        <ul class="keywords">
-                            <li>Sicilian</li>
-                            <li>King&#x27;s Gambit</li>
-                            <li>Ruy Lopez</li>
-                        </ul>
-                        <div class="summary">
-                            <p>
-                                <p>Avid chess player.</p>
-                            </p>
-                        </div>
-                    </div>
-                </section>
-            </section>
-            <section class="section">
-                <header>
-                     <h2 class='section-title'>References</h2>
-
-                </header>
-                <section id="references">
-                    <div class="item">
-                        <blockquote class="reference">&#8220;&#32;Such-and-such is awesome! I&#x27;d hire him/her again in a
-                            second!&#32;&#8221;</blockquote>
-                        <div class="name">John Doe</div>
-                    </div>
-                    <div class="item">
-                        <blockquote class="reference">&#8220;&#32;Hands-down <em>the best developer/manager/spelunker/coworker/etc</em> I&#x27;ve
-                            ever worked with. Emphasis <em>mine!</em>&#32;&#8221;</blockquote>
-                        <div class="name">Somebody Important</div>
-                    </div>
-                </section>
-            </section>
+        </main>
     </body>
 
 </html>
