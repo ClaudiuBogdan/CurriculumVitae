@@ -1,0 +1,31 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "Software developer professional CV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudiuBogdan/CurriculumVitae.git"
+  },
+  "keywords": [
+    "CV"
+  ],
+  "author": "Claudiu Constantin Bogdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudiuBogdan/CurriculumVitae/issues"
+  },
+  "homepage": "https://github.com/ClaudiuBogdan/CurriculumVitae#readme",
+  "dependencies": {
+    "fresh-theme-bootstrap": "^0.4.0",
+    "fresh-theme-elegant": "^0.1.3",
+    "jsonresume-theme-boilerplate": "^0.1.2",
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-elegant": "^1.12.1",
+    "jsonresume-theme-elite": "^1.1.2",
+    "jsonresume-theme-moon": "^1.7.22"
+  }
+}
