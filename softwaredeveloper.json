@@ -43,7 +43,7 @@
         "employer": "Mind Treat Studios",
         "url": "https://www.mindtreatstudios.com",
         "position": "Software Developer",
-        "summary": "I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
+        "summary": "I have developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
         "start": "2018-07-13",
         "keywords": ["Arduino", "Web", "WebGL", "Unity", "Android"],
         "highlights": [
@@ -256,7 +256,7 @@
         "highlights": [
           "Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools.",
           "Implementation of the visual and navigational components of an application's design.",
-          "Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.",
+          "Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the life cycle associated with each one.",
           "Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases.",
           "Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets."
         ]
