@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Software Developer",
-    "brief": "I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects an I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.",
+    "brief": "I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development life cycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects and I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.",
     "image": "professional_portrait-min-patrat.jpg"
   },
   "contact": {
@@ -76,11 +76,11 @@
       "keywords": [
         "SpotifyAPI",
         "Docker",
-        "VueJs",
-        "NodeJs",
+        "Vue.js",
+        "Node.js",
         "Express",
         "MongoDB",
-        "AnimeJs",
+        "Anime.js",
         "Bootsrap4"
       ]
     },
@@ -164,7 +164,7 @@
         "Build electronic system for cinema 4D project.",
         "Created physical like button with Raspberry Pi and LCD screen.",
         "Created movement detection system that triggers the dinosaur video.",
-        "Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino"
+        "Created control system for different devices (smoke machine, motors, solenoid valves) with Arduino."
       ],
       "keywords": ["Arduino", "Raspberry Pi", "Electronic sensors"]
     },
