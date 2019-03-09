@@ -1,10 +1,10 @@
 Claudiu Constantin Bogdan
 ============
-Email: bogdan.claudiu93@gmail.com
+Email: claudiu.engineer@gmail.com
 Tel: +40-738-334-197
 Web: https://claudiuconstantinbogdan.me
 
-I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development lifecycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects an I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.
+I've developed, debugged and deployed mobile applications, VR applications, web games and Single Page Web Applications. I have been involved in all the software development life cycle, from planning up to deploying and maintaining. I've been a lead developer in most of the projects and I've also conducted the technical interview for software developers. I am a problem solver, fast learner and passionate about my work. I'm constantly working to improve my skills and learning how to create better software.
 
 ## SKILLS
 
@@ -17,7 +17,7 @@ I've developed, debugged and deployed mobile applications, VR applications, web 
 
 ### *Software Developer*, [Mind Treat Studios](https://www.mindtreatstudios.com) (2018-07 — Present)
 
-I developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.
+I have developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.
   - Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.
   - Designing application architecture/design patterns: MVC, MVVM.
   - Developing Virtual Reality game with Unity and Vuforia.
@@ -89,7 +89,7 @@ Developed two enterprise applications based on Google Maps and Google Cloud Mess
 
   - Created movement detection system that triggers the dinosaur video.
 
-  - Created control system for different devices (smoke machine, motors, solenoid valves) wit Arduino
+  - Created control system for different devices (smoke machine, motors, solenoid valves) with Arduino.
 
 
 ### *Lead Game Developer*, [Ia Digitala](https://bucurie.coresibrasov.ro/joaca) (2018-10 — 2018-11)
@@ -152,10 +152,10 @@ Advanced Android Development
 
 ## INTERESTS
 
-- GITHUB: GitHub git GitHub Desktop (OS X) LFS GitHub API 
-Regular GitHub user and tinkerer.
+- AUTONOMOUS FLIGHT: Flight Drones AI Aerodynamics Electronics 
+I would like to create an autonomous drone.
 
-- CHESS: Sicilian King's Gambit Ruy Lopez 
-Avid chess player.
+- ARTIFICIAL INTELLIGENCE: AI Neural Networks Machine Learning 
+I am a beginner in this field.
 
 
