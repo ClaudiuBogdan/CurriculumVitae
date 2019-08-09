@@ -45,6 +45,7 @@
         "position": "Software Developer",
         "summary": "I have developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
         "start": "2018-07-13",
+        "end": "2018-04-15",
         "keywords": ["Arduino", "Web", "WebGL", "Unity", "Android"],
         "highlights": [
           "Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.",
@@ -53,10 +54,49 @@
           "Developing web games with Phaser 3 engine and JavaScript.",
           "Programming embedded systems (Arduino) to control lights, solenoid valves, motors."
         ]
+      },
+      {
+        "employer": "Unicredit Services S.c.p.a",
+        "url": "https://www.unicreditgroup.eu/en/microsites/unicreditservices.html",
+        "position": "Software Developer",
+        "summary": "I have improved the test methodology through automated test to ensure the software quality. I have debugged existing source code and contributed to the development of the Global Pricing Tool - Hungary.",
+        "start": "2018-04-24",
+        "end": "Currently",
+        "keywords": ["Scala", "Python", "Jenkins", "Linux", "Selenium"],
+        "highlights": [
+          "Develop, test and debug financial models used in pricing web engine, known as Global Pricing Tool.",
+          "Develop automated tests with Selenium for Global Pricing Tool web interface.",
+          "Maintain and develop the data layer with Teradata and Hazelcast.",
+          "Create and maintain Continuous Integration and Continuous Delivery using Jenkins, Docker, and Linux."
+        ]
       }
     ]
   },
   "projects": [
+    {
+      "title": "Aniversare 18 - Carrefour",
+      "start": "2019-03",
+      "end": "2019-06",
+      "category": "Private",
+      "url": "https://aniversare.carrefour.ro/",
+      "media": [],
+      "role": "Technical lead",
+      "summary": "Lead the developer team and develop Carrefour national campaign application with over 1 million games and more than 100 thousands vouchers. Develop multiplayer game with more than 2000 simultaneous players during Andra musical concert.  Develop API and front-end application for the management of the campaign application.",
+      "highlights": [
+        "Lead Developer, Back-End developer, Front-End Developer, Game Developer",
+        "Develop voucher management and distribution application with Node.js, MySql.",
+        "Develope REST-ful and stateless application for single player and multiplayer game.",
+        "Develop multiplayer game API with real time synchronization between players.",
+        "Develop single player and multiplayer game with Phaser3 and Spine plugin."
+      ],
+      "keywords": [
+        "Scalability",
+        "Software Architecture",
+        "Vue.js",
+        "Node.js",
+        "MySql"
+      ]
+    },
     {
       "title": "Sound of Colours",
       "start": "2019-01",
